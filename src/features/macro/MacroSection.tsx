@@ -9,7 +9,7 @@ export function MacroSection() {
   return (
     <Section number="01" title="Macro Overview" subtitle="">
       <div className="mg">
-        <Card label={<CardLabel>US Index Futures</CardLabel>} symbols={store.futures.map((x) => x.sym)}>
+        <Card label={<CardLabel>Deutsche / EU Index Futures</CardLabel>} symbols={store.futures.map((x) => x.sym)}>
           <MarketTable data={store.futures} nameLabel="Contract" />
         </Card>
         <Card label={<CardLabel>Volatility & Dollar</CardLabel>} symbols={store.dxvix.map((x) => x.sym)}>
@@ -31,7 +31,7 @@ export function MacroSection() {
       </div>
 
       <div className="mg">
-        <Card label={<CardLabel>US Treasury Yields</CardLabel>} symbols={store.yields.map((x) => x.sym)}>
+        <Card label={<CardLabel>Staatsanleihen Renditen</CardLabel>} symbols={store.yields.map((x) => x.sym)}>
           <MarketTable data={store.yields} nameLabel="Tenor" isYield priceLabel="Yield%" />
         </Card>
         <Card label={<CardLabel>Global Market Indices</CardLabel>} symbols={store.global.map((x) => x.sym)}>

@@ -1,5 +1,5 @@
 {
-  "etfmain":    ["SPY","QQQ","DIA","IWM"],
+  "etfmain":    ["EXS1.DE","EXS2.DE","EXS3.DE","EXSA.DE"],
   "submarket":  ["IVW","IVE","IJK","IJJ","IJT","IJS","MGK","VUG","VTV"],
   "sectors":    ["XLK","XLV","XLF","XLE","XLY","XLI","XLB","XLU","XLRE","XLC","XLP"],
   "sectors_ew": ["RSPG","RSPT","RSPF","RSPN","RSPD","RSP","RSPU","RSPM","RSPH","RSPR","RSPS","RSPC"],
@@ -12,7 +12,7 @@
     "EZU","EEM","EFA","EWD","TUR","EZA","ACWI","KSA","EIDO","EWJ",
     "EWT","THD"
   ],
-  "futures":  ["ES=F","NQ=F","RTY=F","YM=F"],
+  "futures":  ["FDAX=F","FESX=F","FGBL=F"],
   "metals":   ["GC=F","SI=F","HG=F","PL=F","PA=F"],
   "energy":   ["CL=F","NG=F","USO"],
   "global":   ["^N225","^KS11","^NSEI","000001.SS","000300.SS","^HSI","^FTSE","^FCHI","^GDAXI"],
@@ -26,5 +26,5 @@
     "30Y": "^TYX"
   },
   "dxvix":    ["DX-Y.NYB","^VIX"],
-  "crypto":   ["BTC-USD","ETH-USD","SOL-USD","XRP-USD"]
+  "crypto":   ["BTC-EUR","ETH-EUR","SOL-EUR","XRP-EUR"]
 }
