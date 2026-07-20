@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem('market-dashboard-theme') !== 'light') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch (_) {}
+      })();
+    </script>
+    <style>
+      html, body {
+        font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      }
+      html {
+        background-color: #0f1419;
+      }
+      html[data-theme="light"] {
+        background-color: #ffffff;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400..600,0..1,-25..200&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/market-dashboard/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Dashboard</title>
+    <script type="module" crossorigin src="/market-dashboard/assets/index-aNjr2hBM.js"></script>
+    <link rel="stylesheet" crossorigin href="/market-dashboard/assets/index-D_sm9SSw.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
