@@ -12,12 +12,11 @@ interface RawData {
   commod?: MarketData[];
   yields?: MarketData[];
   global?: MarketData[];
-  etfmain?: MarketData[];
-  submarket?: MarketData[];
-  sector?: MarketData[];
-  sectorew?: MarketData[];
-  thematic?: MarketData[];
-  country?: MarketData[];
+  portfolio_core?: MarketData[];
+  portfolio_us_tech?: MarketData[];
+  portfolio_software?: MarketData[];
+  portfolio_europe?: MarketData[];
+  portfolio_energy?: MarketData[];
   breadth?: MarketState['breadth'];
   holdings?: Record<string, Holding[]>;
 }
@@ -49,8 +48,6 @@ function prepareSectors(
 }
 
 function transformData(raw: RawData): MarketState {
-  const etfmain = raw.etfmain ?? [];
-
   return {
     futures: raw.futures ?? [],
     dxvix: raw.dxvix ?? [],
@@ -59,12 +56,11 @@ function transformData(raw: RawData): MarketState {
     commodities: raw.commod ?? [],
     yields: raw.yields ?? [],
     global: raw.global ?? [],
-    etfs: etfmain,
-    submkt: sortByW1(raw.submarket ?? []),
-    sectors: prepareSectors(raw.sector, etfmain, 'SPY'),
-    sectorsEW: prepareSectors(raw.sectorew, etfmain, 'RSP'),
-    thematic: sortByW1(raw.thematic ?? []),
-    country: sortByW1(raw.country ?? []),
+    portfolio_core: raw.portfolio_core ?? [],
+    portfolio_us_tech: raw.portfolio_us_tech ?? [],
+    portfolio_software: raw.portfolio_software ?? [],
+    portfolio_europe: raw.portfolio_europe ?? [],
+    portfolio_energy: raw.portfolio_energy ?? [],
     breadth: raw.breadth ?? null,
     holdings: raw.holdings ?? {},
     generatedAt: raw.generated_at ?? null,

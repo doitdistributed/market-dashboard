@@ -5,10 +5,10 @@ function findBySym<T extends { sym: string }>(rows: T[] | undefined, sym: string
   return rows?.find((row) => row.sym === sym);
 }
 
-export function buildShareTweetText(data: Pick<MarketState, 'etfs' | 'crypto' | 'metals' | 'global'>): string {
+export function buildShareTweetText(data: Pick<MarketState, 'portfolio_core' | 'crypto' | 'metals' | 'global'>): string {
   const now = new Date();
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  const spy = findBySym(data.etfs, 'SPY');
+  const msci = findBySym(data.portfolio_core, 'XDWD.DE');
   const btc = findBySym(data.crypto, 'BTC-USD');
   const gold = findBySym(data.metals, 'GC=F');
   const hsi = findBySym(data.global, '^HSI');
@@ -18,7 +18,7 @@ export function buildShareTweetText(data: Pick<MarketState, 'etfs' | 'crypto' | 
 
   return `📊 EOD Snapshot — ${months[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}
 
-🇺🇸 SPY ${arrow(spy?.d1 ?? 0)} ${Math.abs(spy?.d1 ?? 0).toFixed(2)}%  WTD ${sign(spy?.w1 ?? 0)}${(spy?.w1 ?? 0).toFixed(2)}%
+🌍 MSCI World ${arrow(msci?.d1 ?? 0)} ${Math.abs(msci?.d1 ?? 0).toFixed(2)}%  WTD ${sign(msci?.w1 ?? 0)}${(msci?.w1 ?? 0).toFixed(2)}%
 ₿  BTC ${arrow(btc?.d1 ?? 0)} ${Math.abs(btc?.d1 ?? 0).toFixed(2)}%
 🥇 Gold ${arrow(gold?.d1 ?? 0)} ${Math.abs(gold?.d1 ?? 0).toFixed(2)}%
 🇭🇰 HSI ${arrow(hsi?.d1 ?? 0)} ${Math.abs(hsi?.d1 ?? 0).toFixed(2)}%
@@ -26,14 +26,14 @@ export function buildShareTweetText(data: Pick<MarketState, 'etfs' | 'crypto' | 
 #stocks #markets #trading #macro`;
 }
 
-export function buildClipboardSnapshot(data: Pick<MarketState, 'etfs' | 'crypto' | 'metals' | 'dxvix'>): string {
+export function buildClipboardSnapshot(data: Pick<MarketState, 'portfolio_core' | 'crypto' | 'metals' | 'dxvix'>): string {
   const now = new Date();
   const months = [
     'January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December',
   ];
-  const spy = findBySym(data.etfs, 'SPY');
-  const qqq = findBySym(data.etfs, 'QQQ');
+  const msci = findBySym(data.portfolio_core, 'XDWD.DE');
+  const nasdaq = findBySym(data.portfolio_core, 'XNAS.DE');
   const btc = findBySym(data.crypto, 'BTC-USD');
   const gold = findBySym(data.metals, 'GC=F');
   const vix = findBySym(data.dxvix, '^VIX');
@@ -43,9 +43,9 @@ export function buildClipboardSnapshot(data: Pick<MarketState, 'etfs' | 'crypto'
 ${months[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}
 ${'─'.repeat(52)}
 
-US EQUITIES
-  SPY:  ${sign(spy?.d1 ?? 0)}${(spy?.d1 ?? 0).toFixed(2)}% 1D | ${sign(spy?.w1 ?? 0)}${(spy?.w1 ?? 0).toFixed(2)}% WTD | ${sign(spy?.ytd ?? 0)}${(spy?.ytd ?? 0).toFixed(2)}% YTD
-  QQQ:  ${sign(qqq?.d1 ?? 0)}${(qqq?.d1 ?? 0).toFixed(2)}% 1D | ${sign(qqq?.w1 ?? 0)}${(qqq?.w1 ?? 0).toFixed(2)}% WTD | ${sign(qqq?.ytd ?? 0)}${(qqq?.ytd ?? 0).toFixed(2)}% YTD
+CORE ETFS
+  MSCI W.: ${sign(msci?.d1 ?? 0)}${(msci?.d1 ?? 0).toFixed(2)}% 1D | ${sign(msci?.w1 ?? 0)}${(msci?.w1 ?? 0).toFixed(2)}% WTD | ${sign(msci?.ytd ?? 0)}${(msci?.ytd ?? 0).toFixed(2)}% YTD
+  NASDAQ:  ${sign(nasdaq?.d1 ?? 0)}${(nasdaq?.d1 ?? 0).toFixed(2)}% 1D | ${sign(nasdaq?.w1 ?? 0)}${(nasdaq?.w1 ?? 0).toFixed(2)}% WTD | ${sign(nasdaq?.ytd ?? 0)}${(nasdaq?.ytd ?? 0).toFixed(2)}% YTD
 
 VOLATILITY
   VIX:  ${(vix?.price ?? 0).toFixed(2)} (${sign(vix?.d1 ?? 0)}${(vix?.d1 ?? 0).toFixed(2)}% 1D)
