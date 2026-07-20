@@ -1,12 +1,22 @@
 {
+<<<<<<< HEAD
   "generated_at": "2026-07-20T14:02:00Z",
+=======
+  "generated_at": "2026-07-20T13:59:37Z",
+>>>>>>> 799c9db (push DE)
   "futures": [],
   "dxvix": [
     {
       "sym": "DX-Y.NYB",
+<<<<<<< HEAD
       "price": 100.905,
       "d1": 0.15,
       "w1": -0.37,
+=======
+      "price": 100.9,
+      "d1": 0.15,
+      "w1": -0.38,
+>>>>>>> 799c9db (push DE)
       "hi52": -0.88,
       "ytd": 2.52,
       "spark": [
@@ -16,25 +26,43 @@
         0.02,
         0.15
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556149908,
+=======
+      "updatedAt": 1784556046073,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "ICE US Dollar Index - Index - C"
     },
     {
       "sym": "^VIX",
+<<<<<<< HEAD
       "price": 17.81,
       "d1": -5.11,
       "w1": 3.79,
       "hi52": -49.55,
       "ytd": 22.74,
+=======
+      "price": 17.73,
+      "d1": -5.54,
+      "w1": 3.32,
+      "hi52": -49.77,
+      "ytd": 22.19,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -3.85,
         -5.03,
         6.76,
         12.19,
+<<<<<<< HEAD
         -5.11
       ],
       "updatedAt": 1784556149910,
+=======
+        -5.54
+      ],
+      "updatedAt": 1784556046074,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "CBOE Volatility Index"
     }
@@ -42,47 +70,83 @@
   "metals": [
     {
       "sym": "GC=F",
+<<<<<<< HEAD
       "price": 4014.3,
       "d1": 0.04,
       "w1": 0.43,
       "hi52": -28.14,
       "ytd": -6.96,
+=======
+      "price": 4012.8999,
+      "d1": 0.0,
+      "w1": 0.4,
+      "hi52": -28.16,
+      "ytd": -6.99,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.6,
         -0.42,
         -1.44,
         0.68,
+<<<<<<< HEAD
         0.04
       ],
       "updatedAt": 1784556155360,
+=======
+        0.0
+      ],
+      "updatedAt": 1784556057638,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "Gold Aug 26"
     },
     {
       "sym": "SI=F",
+<<<<<<< HEAD
       "price": 57.2,
       "d1": 2.07,
       "w1": -0.75,
       "hi52": -52.84,
       "ytd": -18.93,
+=======
+      "price": 57.185,
+      "d1": 2.05,
+      "w1": -0.78,
+      "hi52": -52.86,
+      "ytd": -18.95,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.97,
         -2.83,
         -2.12,
         0.25,
+<<<<<<< HEAD
         2.07
       ],
       "updatedAt": 1784556155362,
+=======
+        2.05
+      ],
+      "updatedAt": 1784556057639,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "Silver Sep 26"
     },
     {
       "sym": "HG=F",
+<<<<<<< HEAD
       "price": 6.3515,
       "d1": 2.11,
       "w1": 1.9,
       "hi52": -4.52,
       "ytd": 12.62,
+=======
+      "price": 6.351,
+      "d1": 2.11,
+      "w1": 1.89,
+      "hi52": -4.53,
+      "ytd": 12.61,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.56,
         -0.58,
@@ -90,43 +154,75 @@
         -1.21,
         2.11
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556155363,
+=======
+      "updatedAt": 1784556057639,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "Copper Sep 26"
     },
     {
       "sym": "PL=F",
+<<<<<<< HEAD
       "price": 1595.4,
       "d1": -0.65,
       "w1": -0.42,
       "hi52": -44.07,
       "ytd": -24.95,
+=======
+      "price": 1596.6,
+      "d1": -0.57,
+      "w1": -0.35,
+      "hi52": -44.03,
+      "ytd": -24.89,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.83,
         0.0,
         0.26,
         -1.83,
+<<<<<<< HEAD
         -0.65
       ],
       "updatedAt": 1784556155365,
+=======
+        -0.57
+      ],
+      "updatedAt": 1784556057640,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "Platinum Oct 26"
     },
     {
       "sym": "PA=F",
+<<<<<<< HEAD
       "price": 1266.5,
       "d1": 1.81,
       "w1": 1.92,
       "hi52": -41.63,
       "ytd": -24.07,
+=======
+      "price": 1268.0,
+      "d1": 1.93,
+      "w1": 2.04,
+      "hi52": -41.56,
+      "ytd": -23.98,
+>>>>>>> 799c9db (push DE)
       "spark": [
         4.5,
         -1.19,
         -1.54,
         -1.54,
+<<<<<<< HEAD
         1.81
       ],
       "updatedAt": 1784556155366,
+=======
+        1.93
+      ],
+      "updatedAt": 1784556057641,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "Palladium Sep 26"
     }
@@ -134,55 +230,97 @@
   "commod": [
     {
       "sym": "CL=F",
+<<<<<<< HEAD
       "price": 81.51,
       "d1": -1.19,
       "w1": 4.31,
       "hi52": -31.78,
       "ytd": 42.2,
+=======
+      "price": 81.43,
+      "d1": -1.29,
+      "w1": 4.21,
+      "hi52": -31.85,
+      "ytd": 42.06,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.54,
         0.33,
         -0.82,
         4.48,
+<<<<<<< HEAD
         -1.19
       ],
       "updatedAt": 1784556157246,
+=======
+        -1.29
+      ],
+      "updatedAt": 1784556060298,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "Crude Oil Aug 26"
     },
     {
       "sym": "NG=F",
+<<<<<<< HEAD
       "price": 2.859,
       "d1": -1.79,
       "w1": -1.31,
       "hi52": -63.47,
       "ytd": -20.98,
+=======
+      "price": 2.86,
+      "d1": -1.75,
+      "w1": -1.28,
+      "hi52": -63.46,
+      "ytd": -20.95,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.24,
         0.69,
         -2.26,
         1.85,
+<<<<<<< HEAD
         -1.79
       ],
       "updatedAt": 1784556157248,
+=======
+        -1.75
+      ],
+      "updatedAt": 1784556060299,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "Natural Gas Aug 26"
     },
     {
       "sym": "USO",
+<<<<<<< HEAD
       "price": 124.42,
       "d1": 0.37,
       "w1": 5.63,
       "hi52": -19.25,
       "ytd": 80.42,
+=======
+      "price": 124.18,
+      "d1": 0.18,
+      "w1": 5.42,
+      "hi52": -19.41,
+      "ytd": 80.08,
+>>>>>>> 799c9db (push DE)
       "spark": [
         2.02,
         1.01,
         -1.71,
         3.91,
+<<<<<<< HEAD
         0.37
       ],
       "updatedAt": 1784556157249,
+=======
+        0.18
+      ],
+      "updatedAt": 1784556060300,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "United States Oil Fund"
     }
@@ -202,24 +340,42 @@
         -2.8,
         2.9
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556158823,
+=======
+      "updatedAt": 1784556062345,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true
     },
     {
       "sym": "^TYX",
+<<<<<<< HEAD
       "price": 5.088,
       "d1": 2.4,
       "w1": -1.0,
       "hi52": -10.9,
       "ytd": 22.4,
+=======
+      "price": 5.089,
+      "d1": 2.5,
+      "w1": -0.9,
+      "hi52": -10.8,
+      "ytd": 22.5,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -0.4,
         -1.1,
         1.5,
         -3.4,
+<<<<<<< HEAD
         2.4
       ],
       "updatedAt": 1784556158824,
+=======
+        2.5
+      ],
+      "updatedAt": 1784556062346,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true
     }
   ],
@@ -334,55 +490,98 @@
     },
     {
       "sym": "^FTSE",
+<<<<<<< HEAD
       "price": 10523.96,
       "d1": -0.72,
       "w1": 0.24,
       "hi52": -3.76,
       "ytd": 5.76,
+=======
+      "price": 10535.7002,
+      "d1": -0.61,
+      "w1": 0.36,
+      "hi52": -3.65,
+      "ytd": 5.87,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.3,
         -0.13,
         0.54,
         0.27,
+<<<<<<< HEAD
         -0.72
       ],
       "updatedAt": 1784555225000,
+=======
+        -0.61
+      ],
+      "updatedAt": 1784555091000,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "FTSE 100"
     },
     {
       "sym": "^FCHI",
+<<<<<<< HEAD
       "price": 8320.0801,
       "d1": -0.22,
       "w1": -0.53,
       "hi52": -3.73,
       "ytd": 1.52,
+=======
+      "price": 8326.5996,
+      "d1": -0.15,
+      "w1": -0.45,
+      "hi52": -3.65,
+      "ytd": 1.6,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.03,
         0.19,
         -0.05,
         -0.47,
+<<<<<<< HEAD
         -0.22
       ],
       "updatedAt": 1784555220000,
       "ema_uptrend": false,
+=======
+        -0.15
+      ],
+      "updatedAt": 1784555085000,
+      "ema_uptrend": true,
+>>>>>>> 799c9db (push DE)
       "name": "CAC 40"
     },
     {
       "sym": "^GDAXI",
+<<<<<<< HEAD
       "price": 24764.1602,
       "d1": -0.27,
       "w1": -1.39,
       "hi52": -4.39,
       "ytd": 0.92,
+=======
+      "price": 24794.4492,
+      "d1": -0.15,
+      "w1": -1.27,
+      "hi52": -4.27,
+      "ytd": 1.04,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.13,
         -0.59,
         -0.34,
         -0.34,
+<<<<<<< HEAD
         -0.27
       ],
       "updatedAt": 1784555226000,
+=======
+        -0.15
+      ],
+      "updatedAt": 1784555092000,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "DAX                           P"
     }
@@ -390,19 +589,33 @@
   "etfmain": [
     {
       "sym": "EXS1.DE",
+<<<<<<< HEAD
       "price": 204.1,
       "d1": -0.27,
       "w1": -1.38,
       "hi52": -4.45,
       "ytd": 0.44,
+=======
+      "price": 204.4,
+      "d1": -0.12,
+      "w1": -1.23,
+      "hi52": -4.31,
+      "ytd": 0.59,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.1,
         -0.48,
         -0.34,
         -0.39,
+<<<<<<< HEAD
         -0.27
       ],
       "updatedAt": 1784556129199,
+=======
+        -0.12
+      ],
+      "updatedAt": 1784555995942,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShares Core DAX UCITS ETF DE I"
     },
@@ -420,7 +633,11 @@
         -0.27,
         -0.02
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556129201,
+=======
+      "updatedAt": 1784555995943,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShares TecDAX UCITS ETF DE   I"
     },
@@ -438,25 +655,43 @@
         -0.5,
         -0.6
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556129202,
+=======
+      "updatedAt": 1784555995944,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShares MDAX UCITS ETF DE     I"
     },
     {
       "sym": "EXSA.DE",
+<<<<<<< HEAD
       "price": 63.69,
       "d1": -0.42,
       "w1": -0.47,
       "hi52": -2.42,
       "ytd": 9.36,
+=======
+      "price": 63.76,
+      "d1": -0.31,
+      "w1": -0.36,
+      "hi52": -2.31,
+      "ytd": 9.48,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -0.03,
         0.22,
         0.14,
         -0.37,
+<<<<<<< HEAD
         -0.42
       ],
       "updatedAt": 1784556129204,
+=======
+        -0.31
+      ],
+      "updatedAt": 1784555995945,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iSh.STOXX Europe 600 U.ETF DE I"
     }
@@ -476,7 +711,11 @@
         0.15,
         -0.11
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556131732,
+=======
+      "updatedAt": 1784556000767,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShsIII-Gl.Infl.L.Gov.Bd U.ETFR"
     },
@@ -494,61 +733,107 @@
         -0.38,
         0.0
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556131730,
+=======
+      "updatedAt": 1784556000767,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShs IV-MSCI Wd M-C.Eq.W.U.ETFR"
     },
     {
       "sym": "IS3Q.DE",
+<<<<<<< HEAD
       "price": 77.11,
       "d1": 0.21,
       "w1": -0.46,
       "hi52": -1.09,
       "ytd": 13.31,
+=======
+      "price": 77.17,
+      "d1": 0.29,
+      "w1": -0.39,
+      "hi52": -1.01,
+      "ytd": 13.4,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -0.31,
         0.39,
         0.37,
         -1.12,
+<<<<<<< HEAD
         0.21
       ],
       "updatedAt": 1784556131727,
+=======
+        0.29
+      ],
+      "updatedAt": 1784556000765,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsIV-Edge MSCI Wo.Qu.F.U.ETFR"
     },
     {
       "sym": "IS3S.DE",
+<<<<<<< HEAD
       "price": 67.56,
       "d1": 0.6,
       "w1": -1.46,
       "hi52": -5.47,
       "ytd": 30.78,
+=======
+      "price": 67.55,
+      "d1": 0.58,
+      "w1": -1.47,
+      "hi52": -5.48,
+      "ytd": 30.76,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.7,
         -1.72,
         -0.78,
         -0.24,
+<<<<<<< HEAD
         0.6
       ],
       "updatedAt": 1784556131729,
+=======
+        0.58
+      ],
+      "updatedAt": 1784556000766,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShsIV-Edge MSCI Wo.Va.F.U.ETFR"
     },
     {
       "sym": "IS3R.DE",
+<<<<<<< HEAD
       "price": 100.2,
       "d1": 1.95,
       "w1": -1.96,
       "hi52": -8.58,
       "ytd": 20.19,
+=======
+      "price": 100.16,
+      "d1": 1.91,
+      "w1": -2.0,
+      "hi52": -8.61,
+      "ytd": 20.14,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.02,
         -2.31,
         -1.16,
         -1.41,
+<<<<<<< HEAD
         1.95
       ],
       "updatedAt": 1784556131725,
+=======
+        1.91
+      ],
+      "updatedAt": 1784556000764,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShsIV-Edge MSCI Wo.Mo.F.U.ETFR"
     }
@@ -556,37 +841,65 @@
   "sector": [
     {
       "sym": "QDVF.DE",
+<<<<<<< HEAD
       "price": 10.652,
       "d1": 0.68,
       "w1": 2.58,
       "hi52": -9.16,
       "ytd": 32.37,
+=======
+      "price": 10.644,
+      "d1": 0.6,
+      "w1": 2.5,
+      "hi52": -9.23,
+      "ytd": 32.27,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.1,
         -1.23,
         2.14,
         0.9,
+<<<<<<< HEAD
         0.68
       ],
       "updatedAt": 1784556136665,
+=======
+        0.6
+      ],
+      "updatedAt": 1784556014433,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsV-S&P 500 Energ.Sect.U.ETFR"
     },
     {
       "sym": "QDVH.DE",
+<<<<<<< HEAD
       "price": 14.54,
       "d1": -0.47,
       "w1": 0.41,
       "hi52": -1.32,
       "ytd": 6.1,
+=======
+      "price": 14.57,
+      "d1": -0.26,
+      "w1": 0.62,
+      "hi52": -1.11,
+      "ytd": 6.32,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.48,
         0.78,
         0.03,
         -0.41,
+<<<<<<< HEAD
         -0.47
       ],
       "updatedAt": 1784556136667,
+=======
+        -0.26
+      ],
+      "updatedAt": 1784556014434,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsV-S&P 500 Finl Sec.U.ETF  R"
     },
@@ -604,66 +917,113 @@
         -0.09,
         0.07
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556136673,
+=======
+      "updatedAt": 1784556014436,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsIV-Fa.An.Hi.Yi.Co.Bd U.ETFR"
     },
     {
       "sym": "QDVG.DE",
+<<<<<<< HEAD
       "price": 11.352,
       "d1": -0.96,
       "w1": -0.61,
       "hi52": -2.76,
       "ytd": 7.34,
+=======
+      "price": 11.384,
+      "d1": -0.68,
+      "w1": -0.33,
+      "hi52": -2.48,
+      "ytd": 7.64,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -2.31,
         0.57,
         1.6,
         0.53,
+<<<<<<< HEAD
         -0.96
       ],
       "updatedAt": 1784556136664,
+=======
+        -0.68
+      ],
+      "updatedAt": 1784556014432,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsV-S&P 500 He.Ca.Sec.U.ETF R"
     },
     {
       "sym": "QDVW.DE",
+<<<<<<< HEAD
       "price": 8.315,
       "d1": 0.04,
       "w1": -0.74,
       "hi52": -0.82,
       "ytd": 18.17,
+=======
+      "price": 8.326,
+      "d1": 0.17,
+      "w1": -0.61,
+      "hi52": -0.69,
+      "ytd": 18.33,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -0.42,
         -0.16,
         0.28,
         -0.48,
+<<<<<<< HEAD
         0.04
       ],
       "updatedAt": 1784556136675,
+=======
+        0.17
+      ],
+      "updatedAt": 1784556014438,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsII-MSCI Wld Qua.Div.Adv.UER"
     },
     {
       "sym": "QDVK.DE",
+<<<<<<< HEAD
       "price": 14.536,
       "d1": 0.0,
       "w1": -0.97,
       "hi52": -3.4,
       "ytd": 2.71,
+=======
+      "price": 14.498,
+      "d1": -0.26,
+      "w1": -1.23,
+      "hi52": -3.65,
+      "ytd": 2.44,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -1.23,
         2.0,
         0.12,
         -1.82,
+<<<<<<< HEAD
         0.0
       ],
       "updatedAt": 1784556136668,
+=======
+        -0.26
+      ],
+      "updatedAt": 1784556014434,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsV-S&P 500 Con.Dis.Se.U.ETFR"
     },
     {
       "sym": "QDVD.DE",
+<<<<<<< HEAD
       "price": 57.6,
       "d1": 0.07,
       "w1": -1.52,
@@ -695,6 +1055,39 @@
         1.7
       ],
       "updatedAt": 1784556136662,
+=======
+      "price": 57.66,
+      "d1": 0.17,
+      "w1": -1.42,
+      "hi52": -1.45,
+      "ytd": 17.36,
+      "spark": [
+        -1.3,
+        -0.26,
+        0.47,
+        -0.5,
+        0.17
+      ],
+      "updatedAt": 1784556014436,
+      "ema_uptrend": true,
+      "name": "iShsII-iShs MSCI USA Q.D.AD.UER"
+    },
+    {
+      "sym": "QDVE.DE",
+      "price": 42.79,
+      "d1": 1.69,
+      "w1": -1.67,
+      "hi52": -7.7,
+      "ytd": 19.94,
+      "spark": [
+        -0.08,
+        -0.95,
+        -0.85,
+        -1.45,
+        1.69
+      ],
+      "updatedAt": 1784556014431,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShsV-S&P 500 Inf.Te.Sec.U.ETFR"
     }
@@ -920,127 +1313,225 @@
   "thematic": [
     {
       "sym": "2B79.DE",
+<<<<<<< HEAD
       "price": 9.989,
       "d1": 0.56,
       "w1": 0.29,
       "hi52": -14.2,
       "ytd": 8.26,
+=======
+      "price": 9.978,
+      "d1": 0.45,
+      "w1": 0.18,
+      "hi52": -14.3,
+      "ytd": 8.14,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.08,
         1.02,
         0.06,
         -1.42,
+<<<<<<< HEAD
         0.56
       ],
       "updatedAt": 1784556142660,
+=======
+        0.45
+      ],
+      "updatedAt": 1784556030503,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsIV-Digitalisation U.ETF   R"
     },
     {
       "sym": "IQQQ.DE",
+<<<<<<< HEAD
       "price": 67.45,
       "d1": -0.68,
       "w1": 0.03,
       "hi52": -2.02,
       "ytd": 6.29,
+=======
+      "price": 67.5,
+      "d1": -0.6,
+      "w1": 0.1,
+      "hi52": -1.95,
+      "ytd": 6.37,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -0.1,
         -0.16,
         0.83,
         0.15,
+<<<<<<< HEAD
         -0.68
       ],
       "updatedAt": 1784556142665,
+=======
+        -0.6
+      ],
+      "updatedAt": 1784556030507,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsII-Global Water UCITS ETF R"
     },
     {
       "sym": "4GLD.DE",
+<<<<<<< HEAD
       "price": 112.99,
       "d1": 0.18,
       "w1": -0.26,
       "hi52": -24.22,
       "ytd": -4.42,
+=======
+      "price": 113.14,
+      "d1": 0.31,
+      "w1": -0.13,
+      "hi52": -24.12,
+      "ytd": -4.3,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.21,
         -0.72,
         -0.94,
         0.02,
+<<<<<<< HEAD
         0.18
       ],
       "updatedAt": 1784556142663,
+=======
+        0.31
+      ],
+      "updatedAt": 1784556030505,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "DT.BOERSE COM. XETRA-GOLD"
     },
     {
       "sym": "IQQH.DE",
+<<<<<<< HEAD
       "price": 9.257,
       "d1": 0.64,
       "w1": -2.87,
       "hi52": -20.96,
       "ytd": 11.0,
+=======
+      "price": 9.281,
+      "d1": 0.9,
+      "w1": -2.62,
+      "hi52": -20.76,
+      "ytd": 11.28,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.05,
         -0.77,
         -1.85,
         -1.94,
+<<<<<<< HEAD
         0.64
       ],
       "updatedAt": 1784556142657,
+=======
+        0.9
+      ],
+      "updatedAt": 1784556030501,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShsII-Gl.Clean Ener.Tra.U.ETFR"
     },
     {
       "sym": "IS0E.DE",
+<<<<<<< HEAD
       "price": 28.77,
       "d1": 0.26,
       "w1": -3.84,
       "hi52": -38.52,
       "ytd": -11.52,
+=======
+      "price": 28.775,
+      "d1": 0.28,
+      "w1": -3.83,
+      "hi52": -38.51,
+      "ytd": -11.5,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.74,
         -2.32,
         -2.44,
         -1.09,
+<<<<<<< HEAD
         0.26
       ],
       "updatedAt": 1784556142662,
+=======
+        0.28
+      ],
+      "updatedAt": 1784556030504,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShsV-Gold Producers.UCITS ETFR"
     },
     {
       "sym": "VVSM.DE",
+<<<<<<< HEAD
       "price": 94.41,
       "d1": 3.75,
       "w1": -3.94,
       "hi52": -14.81,
       "ytd": 72.75,
+=======
+      "price": 94.5,
+      "d1": 3.85,
+      "w1": -3.85,
+      "hi52": -14.73,
+      "ytd": 72.92,
+>>>>>>> 799c9db (push DE)
       "spark": [
         1.32,
         -3.66,
         -1.71,
         -3.5,
+<<<<<<< HEAD
         3.75
       ],
       "updatedAt": 1784556142669,
+=======
+        3.85
+      ],
+      "updatedAt": 1784556030509,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "VanEck Semiconductor UC.ETF   R"
     },
     {
       "sym": "2B76.DE",
+<<<<<<< HEAD
       "price": 17.38,
       "d1": 2.2,
       "w1": -4.06,
       "hi52": -10.13,
       "ytd": 25.07,
+=======
+      "price": 17.384,
+      "d1": 2.22,
+      "w1": -4.04,
+      "hi52": -10.11,
+      "ytd": 25.1,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -0.68,
         -1.48,
         -1.14,
         -2.96,
+<<<<<<< HEAD
         2.2
       ],
       "updatedAt": 1784556142658,
+=======
+        2.22
+      ],
+      "updatedAt": 1784556030502,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShsIV-Automation&Robot.U.ETF R"
     }
@@ -1060,7 +1551,11 @@
         -2.57,
         2.59
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556146220,
+=======
+      "updatedAt": 1784556041172,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsIV-MSCI China UCITS ETF   R"
     },
@@ -1078,43 +1573,75 @@
         -0.4,
         0.09
       ],
+<<<<<<< HEAD
       "updatedAt": 1784556146217,
+=======
+      "updatedAt": 1784556041170,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShs VII-Co.MSCI Pac.xJP U.ETFR"
     },
     {
       "sym": "EUNL.DE",
+<<<<<<< HEAD
       "price": 125.48,
       "d1": 0.48,
       "w1": -0.65,
       "hi52": -0.92,
       "ytd": 12.72,
+=======
+      "price": 125.59,
+      "d1": 0.57,
+      "w1": -0.56,
+      "hi52": -0.84,
+      "ytd": 12.82,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -0.19,
         0.19,
         -0.04,
         -1.09,
+<<<<<<< HEAD
         0.48
       ],
       "updatedAt": 1784556146213,
+=======
+        0.57
+      ],
+      "updatedAt": 1784556041168,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "iShsIII-Core MSCI World U.ETF R"
     },
     {
       "sym": "EUNM.DE",
+<<<<<<< HEAD
       "price": 53.92,
       "d1": 1.46,
       "w1": -1.72,
       "hi52": -10.28,
       "ytd": 18.36,
+=======
+      "price": 53.97,
+      "d1": 1.55,
+      "w1": -1.63,
+      "hi52": -10.19,
+      "ytd": 18.47,
+>>>>>>> 799c9db (push DE)
       "spark": [
         0.47,
         -0.48,
         -1.13,
         -2.02,
+<<<<<<< HEAD
         1.46
       ],
       "updatedAt": 1784556146215,
+=======
+        1.55
+      ],
+      "updatedAt": 1784556041169,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "iShsIII-MSCI EM U.ETF USD(Acc)R"
     }
@@ -1122,73 +1649,129 @@
   "crypto": [
     {
       "sym": "BTC-EUR",
+<<<<<<< HEAD
       "price": 56397.5781,
       "d1": -0.37,
       "w1": -0.04,
       "hi52": -47.66,
       "ytd": -25.31,
+=======
+      "price": 56318.8594,
+      "d1": -0.51,
+      "w1": -0.18,
+      "hi52": -47.73,
+      "ytd": -25.42,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -1.21,
         0.22,
         1.43,
         -0.08,
+<<<<<<< HEAD
         -0.37
       ],
       "updatedAt": 1784556148331,
+=======
+        -0.51
+      ],
+      "updatedAt": 1784556043632,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "Bitcoin EUR"
     },
     {
       "sym": "ETH-EUR",
+<<<<<<< HEAD
       "price": 1631.51,
       "d1": -0.38,
       "w1": -2.38,
       "hi52": -61.4,
       "ytd": -36.1,
+=======
+      "price": 1629.79,
+      "d1": -0.48,
+      "w1": -2.48,
+      "hi52": -61.44,
+      "ytd": -36.17,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -2.59,
         -1.15,
         1.13,
         0.63,
+<<<<<<< HEAD
         -0.38
       ],
       "updatedAt": 1784556148333,
+=======
+        -0.48
+      ],
+      "updatedAt": 1784556043633,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "Ethereum EUR"
     },
     {
       "sym": "SOL-EUR",
+<<<<<<< HEAD
       "price": 66.85,
       "d1": 0.05,
       "w1": -0.76,
       "hi52": -68.88,
       "ytd": -38.03,
+=======
+      "price": 66.76,
+      "d1": -0.08,
+      "w1": -0.9,
+      "hi52": -68.92,
+      "ytd": -38.11,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -2.37,
         -0.3,
         0.62,
         1.27,
+<<<<<<< HEAD
         0.05
       ],
       "updatedAt": 1784556148335,
+=======
+        -0.08
+      ],
+      "updatedAt": 1784556043633,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": true,
       "name": "Solana EUR"
     },
     {
       "sym": "XRP-EUR",
+<<<<<<< HEAD
       "price": 0.9552,
       "d1": -0.4,
       "w1": -1.54,
       "hi52": -69.33,
       "ytd": -40.23,
+=======
+      "price": 0.9549,
+      "d1": -0.43,
+      "w1": -1.57,
+      "hi52": -69.34,
+      "ytd": -40.25,
+>>>>>>> 799c9db (push DE)
       "spark": [
         -2.17,
         0.26,
         0.35,
         0.43,
+<<<<<<< HEAD
         -0.4
       ],
       "updatedAt": 1784556148336,
+=======
+        -0.43
+      ],
+      "updatedAt": 1784556043634,
+>>>>>>> 799c9db (push DE)
       "ema_uptrend": false,
       "name": "XRP EUR"
     }
@@ -2557,6 +3140,7 @@
       "date": "07/15/2026"
     },
     "advance_decline": {
+<<<<<<< HEAD
       "advancers": 210,
       "decliners": 292
     },
@@ -2567,5 +3151,17 @@
     "pct_above_sma20": 56.3,
     "pct_above_sma50": 63.3,
     "pct_above_sma200": 67.0
+=======
+      "advancers": 225,
+      "decliners": 277
+    },
+    "new_high_low": {
+      "new_highs": 45,
+      "new_lows": 12
+    },
+    "pct_above_sma20": 56.7,
+    "pct_above_sma50": 63.9,
+    "pct_above_sma200": 67.2
+>>>>>>> 799c9db (push DE)
   }
 }

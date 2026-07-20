@@ -1,48 +1,47 @@
 {
-  "etfmain": [
+  "portfolio_core": [
+    "XDWD.DE",
+    "XNAS.DE",
+    "XMME.DE",
+    "XESX.DE",
     "EXS1.DE",
-    "EXS2.DE",
-    "EXS3.DE",
-    "EXSA.DE"
+    "XAIX.DE"
   ],
-  "submarket": [
-    "IS3R.DE",
-    "IS3Q.DE",
-    "IS3S.DE",
-    "IS3T.DE",
-    "IS3V.DE"
+  "portfolio_us_tech": [
+    "APC.DE",
+    "AMZ.DE",
+    "FB2A.DE",
+    "INL.DE",
+    "IBM.DE",
+    "A1Z.DE",
+    "EQIX.DE",
+    "CCC3.DE"
   ],
-  "sectors": [
-    "QDVE.DE",
-    "QDVG.DE",
-    "QDVF.DE",
-    "QDVH.DE",
-    "QDVK.DE",
-    "QDVJ.DE",
-    "QDVD.DE",
-    "QDVQ.DE",
-    "QDVN.DE",
-    "QDVW.DE"
+  "portfolio_software": [
+    "C3K.DE",
+    "CY8.DE",
+    "00E.DE",
+    "2AP.DE"
   ],
-  "sectors_ew": [],
-  "thematic": [
-    "IQQH.DE",
-    "2B76.DE",
-    "2B79.DE",
-    "IS0E.DE",
-    "4GLD.DE",
-    "IQQQ.DE",
-    "IPRV.DE",
-    "LITU.DE",
-    "VVSM.DE"
+  "portfolio_europe": [
+    "SAP.DE",
+    "MBG.DE",
+    "DTE.DE",
+    "IFX.DE",
+    "ASME.DE",
+    "ALU.DE",
+    "ADS.DE",
+    "ZAL.DE",
+    "TUI1.DE"
   ],
-  "country": [
-    "EUNL.DE",
-    "EUNM.DE",
-    "SXR1.DE",
-    "NDIA.DE",
-    "ICGA.DE",
-    "SMEA.DE"
+  "portfolio_energy": [
+    "F3A.DE",
+    "ALB.DE",
+    "CJ0.DE",
+    "DUO.DE",
+    "URNU.DE",
+    "XAD6.DE",
+    "ISLN.DE"
   ],
   "futures": [
     "FDAX=F",

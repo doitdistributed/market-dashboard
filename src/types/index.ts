@@ -95,12 +95,11 @@ export interface MarketState {
   commodities: Commodity[];
   yields: Yield[];
   global: GlobalIndex[];
-  etfs: ETF[];
-  submkt: ETF[];
-  sectors: Sector[];
-  sectorsEW: Sector[];
-  thematic: ETF[];
-  country: ETF[];
+  portfolio_core: ETF[];
+  portfolio_us_tech: ETF[];
+  portfolio_software: ETF[];
+  portfolio_europe: ETF[];
+  portfolio_energy: ETF[];
   breadth: Breadth | null;
   holdings: Record<string, Holding[]>;
   generatedAt: string | null;

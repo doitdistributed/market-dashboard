@@ -1,4 +1,4 @@
-import { Card, CardLabel, ExpandableTableCard, MarketTable, Section } from '../../components/common';
+import { Card, CardLabel, MarketTable, Section } from '../../components/common';
 import { useMarketStore } from '../../store/marketStore';
 import type { MarketTableOptions } from '../../types';
 
@@ -11,22 +11,11 @@ export function EquitiesSection() {
   const store = useMarketStore();
 
   return (
-    <Section number="02" title="Equities Overview">
-      <Card label={<CardLabel>Indices</CardLabel>} symbols={store.etfs.map((x) => x.sym)} style={{ marginBottom: '9px' }}>
+    <Section number="02" title="Portfolio Overview">
+      <Card label={<CardLabel>CORE ETFS</CardLabel>} symbols={store.portfolio_core.map((x) => x.sym)} style={{ marginBottom: '9px' }}>
         <MarketTable
-          data={store.etfs}
-          nameLabel="ETF"
-          showTrend
-          showHoldings
-          holdings={store.holdings}
-          {...rankByW1}
-        />
-      </Card>
-
-      <Card label={<CardLabel>Deutsche Sub-Indizes</CardLabel>} symbols={store.submkt.map((x) => x.sym)} style={{ marginBottom: '9px' }}>
-        <MarketTable
-          data={store.submkt}
-          nameLabel="ETF"
+          data={store.portfolio_core}
+          nameLabel="Asset"
           showTrend
           showHoldings
           holdings={store.holdings}
@@ -35,60 +24,46 @@ export function EquitiesSection() {
       </Card>
 
       <div className="g2" style={{ marginBottom: '9px' }}>
-        <Card label={<CardLabel>Europa Sektoren ETFs</CardLabel>} symbols={store.sectors.map((x) => x.sym)}>
+        <Card label={<CardLabel>US-TECHNOLOGIE & BIG DATA</CardLabel>} symbols={store.portfolio_us_tech.map((x) => x.sym)}>
           <MarketTable
-            data={store.sectors}
-            nameLabel="ETF"
-            hasPrice={false}
+            data={store.portfolio_us_tech}
+            nameLabel="Asset"
             showTrend
-            showHoldings
-            benchmarkSym="SPY"
-            holdings={store.holdings}
+            showHoldings={false}
             {...rankByW1}
           />
         </Card>
-        <Card label={<CardLabel>Europa Sektoren ETFs (EW)</CardLabel>} symbols={store.sectorsEW.map((x) => x.sym)}>
+        <Card label={<CardLabel>SOFTWARE, CYBERSECURITY & CLOUD</CardLabel>} symbols={store.portfolio_software.map((x) => x.sym)}>
           <MarketTable
-            data={store.sectorsEW}
-            nameLabel="ETF"
-            hasPrice={false}
+            data={store.portfolio_software}
+            nameLabel="Asset"
             showTrend
-            showHoldings
-            benchmarkSym="RSP"
-            holdings={store.holdings}
+            showHoldings={false}
             {...rankByW1}
           />
         </Card>
       </div>
 
-      <ExpandableTableCard
-        label={<CardLabel>Thematic ETFs</CardLabel>}
-        expandTitle={`Thematic ETFs (${store.thematic.length})`}
-        data={store.thematic}
-        holdings={store.holdings}
-        style={{ marginBottom: '9px' }}
-        tableProps={{
-          nameLabel: 'ETF',
-          hasPrice: false,
-          showTrend: true,
-          showHoldings: true,
-          ...rankByW1,
-        }}
-      />
-
-      <ExpandableTableCard
-        label={<CardLabel>Country ETFs</CardLabel>}
-        expandTitle={`Country ETFs (${store.country.length})`}
-        data={store.country}
-        holdings={store.holdings}
-        tableProps={{
-          nameLabel: 'ETF',
-          hasPrice: false,
-          showTrend: true,
-          showHoldings: true,
-          ...rankByW1,
-        }}
-      />
+      <div className="g2" style={{ marginBottom: '9px' }}>
+        <Card label={<CardLabel>EUROPÄISCHE BLUE CHIPS</CardLabel>} symbols={store.portfolio_europe.map((x) => x.sym)}>
+          <MarketTable
+            data={store.portfolio_europe}
+            nameLabel="Asset"
+            showTrend
+            showHoldings={false}
+            {...rankByW1}
+          />
+        </Card>
+        <Card label={<CardLabel>ENERGIE, GRUNDSTOFFE & ROHSTOFFE</CardLabel>} symbols={store.portfolio_energy.map((x) => x.sym)}>
+          <MarketTable
+            data={store.portfolio_energy}
+            nameLabel="Asset"
+            showTrend
+            showHoldings={false}
+            {...rankByW1}
+          />
+        </Card>
+      </div>
     </Section>
   );
-};
+}

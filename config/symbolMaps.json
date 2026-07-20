@@ -795,6 +795,153 @@
     },
     "SMEA.DE": {
       "name": "MSCI Europe"
+    },
+    "XDWD.DE": {
+      "name": "Xtrackers MSCI World"
+    },
+    "XNAS.DE": {
+      "name": "Xtrackers Nasdaq 100"
+    },
+    "XMME.DE": {
+      "name": "Xtrackers Emerging Markets"
+    },
+    "XESX.DE": {
+      "name": "Xtrackers EURO STOXX 50"
+    },
+    "AM60.DE": {
+      "name": "Amundi Core Stoxx 600"
+    },
+    "QDSA.DE": {
+      "name": "iShares S&P 500 Materials"
+    },
+    "EXI5.DE": {
+      "name": "iShares Stoxx 600 Real Estate"
+    },
+    "XAIX.DE": {
+      "name": "Xtrackers AI & Big Data"
+    },
+    "XDRE.DE": {
+      "name": "Xtrackers FTSE EPRA/NAREIT"
+    },
+    "XAD6.DE": {
+      "name": "Physical Silver ETC"
+    },
+    "APC.DE": {
+      "name": "Apple"
+    },
+    "ASME.DE": {
+      "name": "ASML Holding"
+    },
+    "QCI.DE": {
+      "name": "Qualcomm"
+    },
+    "ADYEN.AS": {
+      "name": "Adyen"
+    },
+    "2AP.DE": {
+      "name": "Appian"
+    },
+    "A1Z.DE": {
+      "name": "Arista Networks"
+    },
+    "G4G.F": {
+      "name": "Alphagen Intelligence"
+    },
+    "BRYN.DE": {
+      "name": "Berkshire Hathaway"
+    },
+    "PEP.DE": {
+      "name": "PepsiCo"
+    },
+    "MMM.DE": {
+      "name": "3M"
+    },
+    "ALU.DE": {
+      "name": "Air Liquide"
+    },
+    "ADS.DE": {
+      "name": "adidas"
+    },
+    "ALB.DE": {
+      "name": "Albemarle"
+    },
+    "AOX.DE": {
+      "name": "Alstria office REIT"
+    },
+    "JW.F": {
+      "name": "John Wiley & Sons"
+    },
+    "PTP.DE": {
+      "name": "Pentixapharm"
+    },
+    "PUIG.MC": {
+      "name": "Puig Brands"
+    },
+    "TUI1.DE": {
+      "name": "TUI"
+    },
+    "VFP.DE": {
+      "name": "V.F. Corp"
+    },
+    "WAC.DE": {
+      "name": "Vertex Pharm."
+    },
+    "ZAL.DE": {
+      "name": "Zalando"
+    },
+    "AMZ.DE": {
+      "name": "Amazon"
+    },
+    "FB2A.DE": {
+      "name": "Meta Platforms"
+    },
+    "INL.DE": {
+      "name": "Intel Corp"
+    },
+    "IBM.DE": {
+      "name": "IBM"
+    },
+    "C3K.DE": {
+      "name": "Crowdstrike"
+    },
+    "CY8.DE": {
+      "name": "CyberArk"
+    },
+    "00E.DE": {
+      "name": "Elastic NV"
+    },
+    "SAP.DE": {
+      "name": "SAP SE"
+    },
+    "MBG.DE": {
+      "name": "Mercedes-Benz"
+    },
+    "DTE.DE": {
+      "name": "Deutsche Telekom"
+    },
+    "IFX.DE": {
+      "name": "Infineon"
+    },
+    "F3A.DE": {
+      "name": "First Solar"
+    },
+    "CJ0.DE": {
+      "name": "Cameco"
+    },
+    "DUO.DE": {
+      "name": "DuPont"
+    },
+    "URNU.DE": {
+      "name": "Global X Uranium"
+    },
+    "EQIX.DE": {
+      "name": "Equinix"
+    },
+    "CCC3.DE": {
+      "name": "Coca-Cola"
+    },
+    "ISLN.DE": {
+      "name": "iShares Silver ETC"
     }
   }
 }

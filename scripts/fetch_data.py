@@ -83,12 +83,11 @@ print(f"\u2713 Loaded tickers.json")
 
 # output_key -> tickers.json key
 BATCH_SECTIONS = [
-    ('etfmain', 'etfmain'),
-    ('submarket', 'submarket'),
-    ('sector', 'sectors'),
-    ('sectorew', 'sectors_ew'),
-    ('thematic', 'thematic'),
-    ('country', 'country'),
+    ('portfolio_core', 'portfolio_core'),
+    ('portfolio_us_tech', 'portfolio_us_tech'),
+    ('portfolio_software', 'portfolio_software'),
+    ('portfolio_europe', 'portfolio_europe'),
+    ('portfolio_energy', 'portfolio_energy'),
     ('crypto', 'crypto'),
     ('dxvix', 'dxvix'),
     ('futures', 'futures'),
@@ -101,7 +100,7 @@ INDIVIDUAL_SECTIONS = [
 
 PRICE_SECTIONS = [
     'futures', 'dxvix', 'crypto', 'metals', 'commod', 'yields',
-    'global', 'etfmain', 'submarket', 'sector', 'sectorew', 'thematic', 'country',
+    'global', 'portfolio_core', 'portfolio_us_tech', 'portfolio_software', 'portfolio_europe', 'portfolio_energy',
 ]
 
 def tickers_for(section_key):
@@ -839,18 +838,16 @@ def fetch_all(prices_only=False):
     output = {
         'generated_at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
         'futures':  [], 'dxvix':   [], 'metals':   [], 'commod':  [],
-        'yields':   [], 'global':  [], 'etfmain':  [], 'submarket':[],
-        'sector':   [], 'sectorew':[], 'thematic': [], 'country': [],
+        'yields':   [], 'global':  [], 'portfolio_core': [], 'portfolio_us_tech': [],
+        'portfolio_software': [], 'portfolio_europe': [], 'portfolio_energy': [],
         'crypto':   [],
         'holdings': existing.get('holdings', {}),
         'breadth':  existing.get('breadth',  {}),
     }
 
     # US ETF + market sections via yfinance batch download
-    yf_etf_batches = [(out_key, tickers_key) for out_key, tickers_key in BATCH_SECTIONS
-                      if out_key in ('etfmain', 'submarket', 'sector', 'sectorew', 'thematic', 'country')]
-    yf_batches = [(out_key, tickers_key) for out_key, tickers_key in BATCH_SECTIONS
-                  if out_key not in ('etfmain', 'submarket', 'sector', 'sectorew', 'thematic', 'country')]
+    yf_etf_batches = [(out_key, tickers_key) for out_key, tickers_key in BATCH_SECTIONS if out_key.startswith('portfolio_')]
+    yf_batches = [(out_key, tickers_key) for out_key, tickers_key in BATCH_SECTIONS if not out_key.startswith('portfolio_')]
     yf_individual_batches = INDIVIDUAL_SECTIONS
 
     use_massive = bool(MASSIVE_API_KEY)
@@ -909,7 +906,7 @@ def fetch_all(prices_only=False):
         dx_order = {sym: idx for idx, sym in enumerate(tickers_for('dxvix'))}
         output['dxvix'].sort(key=lambda x: dx_order.get(x.get('sym', ''), 99))
 
-    for key in ('country', 'sector', 'sectorew', 'thematic', 'submarket'):
+    for key in ('portfolio_core', 'portfolio_us_tech', 'portfolio_software', 'portfolio_europe', 'portfolio_energy'):
         output[key].sort(key=lambda x: x.get('w1', 0), reverse=True)
 
     all_price_tickers = list(dict.fromkeys(
@@ -945,7 +942,7 @@ def fetch_all(prices_only=False):
     if not prices_only:
         holdings_tickers = list(dict.fromkeys(
             [sym for out_key, tickers_key in BATCH_SECTIONS
-             if out_key in ('etfmain', 'submarket', 'sector', 'sectorew', 'thematic', 'country')
+             if out_key in ('portfolio_core', 'portfolio_us_tech', 'portfolio_software', 'portfolio_europe', 'portfolio_energy')
              for sym in tickers_for(tickers_key)]
         ))
         print(f"\nFetching ETF holdings ({len(holdings_tickers)} ETFs)...")
