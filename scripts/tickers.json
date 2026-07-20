@@ -1,22 +1,81 @@
 {
-  "etfmain":    ["EXS1.DE","EXS2.DE","EXS3.DE","EXSA.DE"],
-  "submarket":  ["IVW","IVE","IJK","IJJ","IJT","IJS","MGK","VUG","VTV"],
-  "sectors":    ["XLK","XLV","XLF","XLE","XLY","XLI","XLB","XLU","XLRE","XLC","XLP"],
-  "sectors_ew": ["RSPG","RSPT","RSPF","RSPN","RSPD","RSP","RSPU","RSPM","RSPH","RSPR","RSPS","RSPC"],
+  "etfmain": [
+    "EXS1.DE",
+    "EXS2.DE",
+    "EXS3.DE",
+    "EXSA.DE"
+  ],
+  "submarket": [
+    "IS3R.DE",
+    "IS3Q.DE",
+    "IS3S.DE",
+    "IS3T.DE",
+    "IS3V.DE"
+  ],
+  "sectors": [
+    "QDVE.DE",
+    "QDVG.DE",
+    "QDVF.DE",
+    "QDVH.DE",
+    "QDVK.DE",
+    "QDVJ.DE",
+    "QDVD.DE",
+    "QDVQ.DE",
+    "QDVN.DE",
+    "QDVW.DE"
+  ],
+  "sectors_ew": [],
   "thematic": [
-    "USO", "IHAK", "SOXX", "ARKG", "CIBR", "XPH", "XHS", "XBI", "XOP", "SMH", "WEAT", "KBWB", "KRE", "XTN", "IDNA", "XLE", "XSD", "KBE", "IXC", "IYT", "DBC", "IBB", "KIE", "XTL", "WCLD", "AMLP", "IDGT", "BOUT", "IYR", "CLOU", "BBH", "XLRE", "XLK", "PPH", "SPMO", "IWM", "XLF", "XLV", "IGM", "MOO", "XLI", "JETS", "PAVE", "SKYY", "QTUM", "XRT", "XLP", "VIS", "DBA", "SPY", "IWO", "QQQ", "XLU", "ACWI", "SVXY", "IAI", "SLX", "XHE", "BAI", "XSW", "OIH", "SHV", "XLB", "IPO", "MAGS", "UUP", "AIQ", "NANR", "EEM", "EWW", "HYG", "IBUY", "FDN", "XHB", "EMLC", "VGIT", "IEI", "SPPP", "AGG", "ITA", "IEF", "PHO", "ROBO", "LQD", "FDRV", "ITB", "XLY", "TLT", "PPA", "FFTY", "XLC", "IGV", "ARKW", "DRIV", "TAN", "ASHR", "PICK", "BUZZ", "ESPO", "XAR", "ARKK", "FXI", "IHI", "MSOS", "DRAM", "BLOK", "PBW", "ARKF", "MCHI", "UFO", "UNG", "LIT", "COPX", "ARKX", "IDRV", "OUNZ", "ARKQ", "BOTZ", "GLD", "KWEB", "WGMI", "XME", "GDX", "SIL", "BTF", "GDXJ", "SILJ", "REMX", "NLR", "URA", "SLV", "WQTM"
+    "IQQH.DE",
+    "2B76.DE",
+    "2B79.DE",
+    "IS0E.DE",
+    "4GLD.DE",
+    "IQQQ.DE",
+    "IPRV.DE",
+    "LITU.DE",
+    "VVSM.DE"
   ],
   "country": [
-    "GREK","ARGT","EWS","EWP","EUFN","MCHI","EWZ","EWI","EWY","EWH",
-    "ECH","EWC","EWL","EWQ","EWA","IEV","IEUR","INDA","EWG","EWW",
-    "EZU","EEM","EFA","EWD","TUR","EZA","ACWI","KSA","EIDO","EWJ",
-    "EWT","THD"
+    "EUNL.DE",
+    "EUNM.DE",
+    "SXR1.DE",
+    "NDIA.DE",
+    "ICGA.DE",
+    "SMEA.DE"
   ],
-  "futures":  ["FDAX=F","FESX=F","FGBL=F"],
-  "metals":   ["GC=F","SI=F","HG=F","PL=F","PA=F"],
-  "energy":   ["CL=F","NG=F","USO"],
-  "global":   ["^N225","^KS11","^NSEI","000001.SS","000300.SS","^HSI","^FTSE","^FCHI","^GDAXI"],
-  "yields":   ["^TNX","^TYX"],
+  "futures": [
+    "FDAX=F",
+    "FESX=F",
+    "FGBL=F"
+  ],
+  "metals": [
+    "GC=F",
+    "SI=F",
+    "HG=F",
+    "PL=F",
+    "PA=F"
+  ],
+  "energy": [
+    "CL=F",
+    "NG=F",
+    "USO"
+  ],
+  "global": [
+    "^N225",
+    "^KS11",
+    "^NSEI",
+    "000001.SS",
+    "000300.SS",
+    "^HSI",
+    "^FTSE",
+    "^FCHI",
+    "^GDAXI"
+  ],
+  "yields": [
+    "^TNX",
+    "^TYX"
+  ],
   "fred_yields": {
     "US2Y": "DGS2"
   },
@@ -25,6 +84,14 @@
     "10Y": "^TNX",
     "30Y": "^TYX"
   },
-  "dxvix":    ["DX-Y.NYB","^VIX"],
-  "crypto":   ["BTC-EUR","ETH-EUR","SOL-EUR","XRP-EUR"]
+  "dxvix": [
+    "DX-Y.NYB",
+    "^VIX"
+  ],
+  "crypto": [
+    "BTC-EUR",
+    "ETH-EUR",
+    "SOL-EUR",
+    "XRP-EUR"
+  ]
 }
