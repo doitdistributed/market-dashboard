@@ -21,6 +21,7 @@ const initialState: MarketState = {
   portfolio_software: [],
   portfolio_europe: [],
   portfolio_energy: [],
+  portfolio_watchlist: [],
   breadth: null,
   holdings: {},
   generatedAt: null,
@@ -58,6 +59,7 @@ export const useMarketStore = create<MarketStore>((set) => ({
         portfolio_software: addTimestamp(data.portfolio_software),
         portfolio_europe: addTimestamp(data.portfolio_europe),
         portfolio_energy: addTimestamp(data.portfolio_energy),
+        portfolio_watchlist: addTimestamp(data.portfolio_watchlist),
         loading: false,
         error: null,
       };
@@ -82,6 +84,7 @@ export const useMarketStore = create<MarketStore>((set) => ({
         portfolio_software: updateArray(state.portfolio_software),
         portfolio_europe: updateArray(state.portfolio_europe),
         portfolio_energy: updateArray(state.portfolio_energy),
+        portfolio_watchlist: updateArray(state.portfolio_watchlist),
       };
     }),
 }));

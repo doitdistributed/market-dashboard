@@ -64,6 +64,16 @@ export function EquitiesSection() {
           />
         </Card>
       </div>
+
+      <Card label={<CardLabel>EXTENDED WATCHLIST</CardLabel>} symbols={store.portfolio_watchlist.map((x) => x.sym)}>
+        <MarketTable
+          data={store.portfolio_watchlist}
+          nameLabel="Asset"
+          showTrend
+          showHoldings={false}
+          {...rankByW1}
+        />
+      </Card>
     </Section>
   );
 }

@@ -17,6 +17,7 @@ interface RawData {
   portfolio_software?: MarketData[];
   portfolio_europe?: MarketData[];
   portfolio_energy?: MarketData[];
+  portfolio_watchlist?: MarketData[];
   breadth?: MarketState['breadth'];
   holdings?: Record<string, Holding[]>;
 }
@@ -61,6 +62,7 @@ function transformData(raw: RawData): MarketState {
     portfolio_software: raw.portfolio_software ?? [],
     portfolio_europe: raw.portfolio_europe ?? [],
     portfolio_energy: raw.portfolio_energy ?? [],
+    portfolio_watchlist: raw.portfolio_watchlist ?? [],
     breadth: raw.breadth ?? null,
     holdings: raw.holdings ?? {},
     generatedAt: raw.generated_at ?? null,

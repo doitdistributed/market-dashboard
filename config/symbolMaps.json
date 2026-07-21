@@ -749,10 +749,10 @@
       "name": "S&P 500 Cons Staples"
     },
     "QDVW.DE": {
-      "name": "S&P 500 Comm Svcs"
+      "name": "iShares Europe IT"
     },
     "IQQH.DE": {
-      "name": "Global Clean Energy"
+      "name": "iShares Clean Energy"
     },
     "2B76.DE": {
       "name": "Automation & Robotics"
@@ -815,13 +815,13 @@
       "name": "iShares S&P 500 Materials"
     },
     "EXI5.DE": {
-      "name": "iShares Stoxx 600 Real Estate"
+      "name": "STOXX Europe Real Estate"
     },
     "XAIX.DE": {
       "name": "Xtrackers AI & Big Data"
     },
     "XDRE.DE": {
-      "name": "Xtrackers FTSE EPRA/NAREIT"
+      "name": "Xtrackers EPRA/NAREIT"
     },
     "XAD6.DE": {
       "name": "Physical Silver ETC"
@@ -942,6 +942,153 @@
     },
     "ISLN.DE": {
       "name": "iShares Silver ETC"
+    },
+    "AAPL": {
+      "name": "Apple"
+    },
+    "AMZN": {
+      "name": "Amazon"
+    },
+    "META": {
+      "name": "Meta Platforms"
+    },
+    "INTC": {
+      "name": "Intel Corp"
+    },
+    "IBM": {
+      "name": "IBM"
+    },
+    "ANET": {
+      "name": "Arista Networks"
+    },
+    "EQIX": {
+      "name": "Equinix"
+    },
+    "KO": {
+      "name": "Coca-Cola"
+    },
+    "CRWD": {
+      "name": "Crowdstrike"
+    },
+    "CYBR": {
+      "name": "CyberArk"
+    },
+    "ESTC": {
+      "name": "Elastic NV"
+    },
+    "APPN": {
+      "name": "Appian"
+    },
+    "FSLR": {
+      "name": "First Solar"
+    },
+    "ALB": {
+      "name": "Albemarle"
+    },
+    "CCJ": {
+      "name": "Cameco"
+    },
+    "DD": {
+      "name": "DuPont"
+    },
+    "DTCR.DE": {
+      "name": "Global X Data Center"
+    },
+    "IS3U.DE": {
+      "name": "iShares Growth Portfolio"
+    },
+    "XDWT.DE": {
+      "name": "iShares World IT"
+    },
+    "QDVA.DE": {
+      "name": "iShares S&P Comm"
+    },
+    "IUS3.DE": {
+      "name": "iShares SmallCap 600"
+    },
+    "SPAB.DE": {
+      "name": "Scalable AC World"
+    },
+    "ZPRV.DE": {
+      "name": "SPDR USA Small Cap Value"
+    },
+    "ASML.AS": {
+      "name": "ASML Holding"
+    },
+    "BRK-B": {
+      "name": "Berkshire Hathaway B"
+    },
+    "BOIL.CN": {
+      "name": "Beyond Oil"
+    },
+    "BGRP.DE": {
+      "name": "Bigrep"
+    },
+    "BRN.AX": {
+      "name": "BrainChip Holdings"
+    },
+    "0291.HK": {
+      "name": "China Resources Beer"
+    },
+    "QBTS": {
+      "name": "D-Wave Quantum"
+    },
+    "DOU.DE": {
+      "name": "Douglas"
+    },
+    "ELE.DE": {
+      "name": "Eleving Group"
+    },
+    "EL.PA": {
+      "name": "EssilorLuxottica"
+    },
+    "FIE.DE": {
+      "name": "Fielmann"
+    },
+    "FI": {
+      "name": "Fiserv"
+    },
+    "VH2.DE": {
+      "name": "Friedrich Vorwerk"
+    },
+    "GXI.DE": {
+      "name": "Gerresheimer"
+    },
+    "HABA.DE": {
+      "name": "Hamborner REIT"
+    },
+    "HDD.DE": {
+      "name": "Heidelberger Druck"
+    },
+    "HXL": {
+      "name": "Hexcel Co"
+    },
+    "IMB.L": {
+      "name": "Imperial Brands"
+    },
+    "KGX.DE": {
+      "name": "KION Grp"
+    },
+    "LIN": {
+      "name": "Linde"
+    },
+    "LHA.PA": {
+      "name": "Louis Hachette"
+    },
+    "PTC.DE": {
+      "name": "Partec"
+    },
+    "RGV.MI": {
+      "name": "Rigsave"
+    },
+    "RR.L": {
+      "name": "Rolls-Royce"
+    },
+    "SBF.DE": {
+      "name": "SBF"
+    },
+    "NCH2.DE": {
+      "name": "Thyssenkrupp Nucera"
     }
   }
 }

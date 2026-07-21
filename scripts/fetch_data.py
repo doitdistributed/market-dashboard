@@ -88,6 +88,7 @@ BATCH_SECTIONS = [
     ('portfolio_software', 'portfolio_software'),
     ('portfolio_europe', 'portfolio_europe'),
     ('portfolio_energy', 'portfolio_energy'),
+    ('portfolio_watchlist', 'portfolio_watchlist'),
     ('crypto', 'crypto'),
     ('dxvix', 'dxvix'),
     ('futures', 'futures'),
@@ -100,7 +101,7 @@ INDIVIDUAL_SECTIONS = [
 
 PRICE_SECTIONS = [
     'futures', 'dxvix', 'crypto', 'metals', 'commod', 'yields',
-    'global', 'portfolio_core', 'portfolio_us_tech', 'portfolio_software', 'portfolio_europe', 'portfolio_energy',
+    'global', 'portfolio_core', 'portfolio_us_tech', 'portfolio_software', 'portfolio_europe', 'portfolio_energy', 'portfolio_watchlist',
 ]
 
 def tickers_for(section_key):
@@ -839,7 +840,7 @@ def fetch_all(prices_only=False):
         'generated_at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
         'futures':  [], 'dxvix':   [], 'metals':   [], 'commod':  [],
         'yields':   [], 'global':  [], 'portfolio_core': [], 'portfolio_us_tech': [],
-        'portfolio_software': [], 'portfolio_europe': [], 'portfolio_energy': [],
+        'portfolio_software': [], 'portfolio_europe': [], 'portfolio_energy': [], 'portfolio_watchlist': [],
         'crypto':   [],
         'holdings': existing.get('holdings', {}),
         'breadth':  existing.get('breadth',  {}),
@@ -906,7 +907,7 @@ def fetch_all(prices_only=False):
         dx_order = {sym: idx for idx, sym in enumerate(tickers_for('dxvix'))}
         output['dxvix'].sort(key=lambda x: dx_order.get(x.get('sym', ''), 99))
 
-    for key in ('portfolio_core', 'portfolio_us_tech', 'portfolio_software', 'portfolio_europe', 'portfolio_energy'):
+    for key in ('portfolio_core', 'portfolio_us_tech', 'portfolio_software', 'portfolio_europe', 'portfolio_energy', 'portfolio_watchlist'):
         output[key].sort(key=lambda x: x.get('w1', 0), reverse=True)
 
     all_price_tickers = list(dict.fromkeys(

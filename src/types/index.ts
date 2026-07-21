@@ -100,6 +100,7 @@ export interface MarketState {
   portfolio_software: ETF[];
   portfolio_europe: ETF[];
   portfolio_energy: ETF[];
+  portfolio_watchlist: ETF[];
   breadth: Breadth | null;
   holdings: Record<string, Holding[]>;
   generatedAt: string | null;
