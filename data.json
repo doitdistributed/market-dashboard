@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T19:02:02Z",
+  "generated_at": "2026-07-26T02:26:48Z",
   "futures": [],
   "dxvix": [
     {
@@ -499,24 +499,6 @@
   ],
   "portfolio_us_tech": [
     {
-      "sym": "EQIX",
-      "price": 1084.24,
-      "d1": 4.9,
-      "w1": 6.3,
-      "hi52": -3.54,
-      "ytd": 43.37,
-      "spark": [
-        -0.26,
-        1.04,
-        0.08,
-        0.47,
-        4.9
-      ],
-      "updatedAt": 1784851200000,
-      "ema_uptrend": false,
-      "name": "Equinix, Inc."
-    },
-    {
       "sym": "ANET",
       "price": 173.99,
       "d1": -1.48,
@@ -535,22 +517,22 @@
       "name": "Arista Networks, Inc."
     },
     {
-      "sym": "KO",
-      "price": 82.25,
-      "d1": 1.33,
-      "w1": 0.85,
-      "hi52": -4.0,
-      "ytd": 20.59,
+      "sym": "EQIX",
+      "price": 1033.55,
+      "d1": 0.47,
+      "w1": 2.42,
+      "hi52": -8.05,
+      "ytd": 36.67,
       "spark": [
-        0.69,
-        -0.18,
-        0.28,
-        -1.25,
-        1.33
+        1.08,
+        -0.26,
+        1.04,
+        0.08,
+        0.47
       ],
-      "updatedAt": 1784851200000,
-      "ema_uptrend": true,
-      "name": "Coca-Cola Company (The)"
+      "updatedAt": 1784764800000,
+      "ema_uptrend": false,
+      "name": "Equinix, Inc."
     },
     {
       "sym": "IBM",
@@ -605,6 +587,24 @@
       "updatedAt": 1784851200000,
       "ema_uptrend": false,
       "name": "Intel Corporation"
+    },
+    {
+      "sym": "KO",
+      "price": 81.17,
+      "d1": -1.25,
+      "w1": -4.42,
+      "hi52": -5.26,
+      "ytd": 19.0,
+      "spark": [
+        -3.96,
+        0.69,
+        -0.18,
+        0.28,
+        -1.25
+      ],
+      "updatedAt": 1784764800000,
+      "ema_uptrend": true,
+      "name": "Coca-Cola Company (The)"
     },
     {
       "sym": "AMZN",
@@ -1500,73 +1500,73 @@
   "crypto": [
     {
       "sym": "BTC-EUR",
-      "price": 56651.0,
-      "d1": 0.54,
-      "w1": -0.86,
-      "hi52": -47.42,
-      "ytd": -24.98,
+      "price": 56665.0391,
+      "d1": 0.57,
+      "w1": -0.83,
+      "hi52": -47.41,
+      "ytd": -24.96,
       "spark": [
         2.07,
         -0.69,
         -1.29,
         -1.46,
-        0.54
+        0.57
       ],
-      "updatedAt": 1785006146227,
+      "updatedAt": 1785032843407,
       "ema_uptrend": true,
       "name": "Bitcoin EUR"
     },
     {
       "sym": "ETH-EUR",
-      "price": 1648.6801,
-      "d1": 0.83,
-      "w1": -1.14,
-      "hi52": -60.99,
-      "ytd": -35.43,
+      "price": 1651.74,
+      "d1": 1.01,
+      "w1": -0.96,
+      "hi52": -60.92,
+      "ytd": -35.31,
       "spark": [
         1.41,
         0.19,
         -2.61,
         -0.9,
-        0.83
+        1.01
       ],
-      "updatedAt": 1785006146228,
+      "updatedAt": 1785032843409,
       "ema_uptrend": true,
       "name": "Ethereum EUR"
     },
     {
       "sym": "SOL-EUR",
-      "price": 65.61,
-      "d1": 1.03,
-      "w1": -3.72,
-      "hi52": -69.46,
-      "ytd": -39.18,
+      "price": 65.72,
+      "d1": 1.2,
+      "w1": -3.56,
+      "hi52": -69.41,
+      "ytd": -39.08,
       "spark": [
         0.52,
         -0.34,
         -2.32,
         -2.61,
-        1.03
+        1.2
       ],
-      "updatedAt": 1785006146230,
+      "updatedAt": 1785032843410,
       "ema_uptrend": false,
       "name": "Solana EUR"
     },
     {
       "sym": "XRP-EUR",
-      "price": 0.9698,
-      "d1": 1.13,
-      "w1": -0.45,
-      "hi52": -66.5,
-      "ytd": -39.32,
+      "price": 0.9665,
+      "d1": 0.79,
+      "w1": -0.79,
+      "hi52": -66.62,
+      "ytd": -39.52,
       "spark": [
         2.85,
         -0.15,
         -2.74,
         -1.44,
-        1.13
+        0.79
       ],
-      "updatedAt": 1785006146231,
+      "updatedAt": 1785032843412,
       "ema_uptrend": true,
       "name": "XRP EUR"
     }
@@ -1947,16 +1947,16 @@
       "date": "07/22/2026"
     },
     "advance_decline": {
-      "advancers": 363,
-      "decliners": 140
+      "advancers": 350,
+      "decliners": 153
     },
     "new_high_low": {
-      "new_highs": 52,
-      "new_lows": 8
+      "new_highs": 51,
+      "new_lows": 10
     },
-    "pct_above_sma20": 55.3,
-    "pct_above_sma50": 65.7,
-    "pct_above_sma200": 66.8
+    "pct_above_sma20": 54.5,
+    "pct_above_sma50": 65.1,
+    "pct_above_sma200": 66.6
   },
   "etfmain": [
     {
