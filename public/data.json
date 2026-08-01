@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T08:14:05Z",
+  "generated_at": "2026-08-01T13:10:59Z",
   "futures": [],
   "dxvix": [
     {
@@ -1011,24 +1011,6 @@
       "name": "BRAINCHIP FPO [BRN]"
     },
     {
-      "sym": "RR.L",
-      "price": 1463.0,
-      "d1": 6.01,
-      "w1": 7.65,
-      "hi52": -4.54,
-      "ytd": 22.23,
-      "spark": [
-        4.16,
-        -0.14,
-        0.41,
-        -2.78,
-        6.01
-      ],
-      "updatedAt": 1785369600000,
-      "ema_uptrend": true,
-      "name": "ROLLS-ROYCE HOLDINGS PLC ORD SH"
-    },
-    {
       "sym": "FIE.DE",
       "price": 41.75,
       "d1": 0.97,
@@ -1063,6 +1045,24 @@
       "updatedAt": 1785369600000,
       "ema_uptrend": false,
       "name": "Gerresheimer AG               I"
+    },
+    {
+      "sym": "RR.L",
+      "price": 1467.8,
+      "d1": 0.33,
+      "w1": 3.69,
+      "hi52": -4.23,
+      "ytd": 22.63,
+      "spark": [
+        -0.14,
+        0.41,
+        -2.78,
+        6.01,
+        0.33
+      ],
+      "updatedAt": 1785456000000,
+      "ema_uptrend": true,
+      "name": "ROLLS-ROYCE HOLDINGS PLC ORD SH"
     },
     {
       "sym": "BRK-B",
@@ -1135,24 +1135,6 @@
       "updatedAt": 1785456000000,
       "ema_uptrend": true,
       "name": "iShsIV-MSCI France UCITS ETF  R"
-    },
-    {
-      "sym": "IMB.L",
-      "price": 2842.0,
-      "d1": -2.97,
-      "w1": 1.61,
-      "hi52": -21.73,
-      "ytd": -9.03,
-      "spark": [
-        0.93,
-        -0.18,
-        2.91,
-        1.0,
-        -2.97
-      ],
-      "updatedAt": 1785369600000,
-      "ema_uptrend": true,
-      "name": "IMPERIAL BRANDS PLC ORD 10P"
     },
     {
       "sym": "PUIG.MC",
@@ -1261,6 +1243,24 @@
       "updatedAt": 1785456000000,
       "ema_uptrend": true,
       "name": "CHINA RES BEER"
+    },
+    {
+      "sym": "IMB.L",
+      "price": 2825.0,
+      "d1": -0.6,
+      "w1": 0.07,
+      "hi52": -22.2,
+      "ytd": -9.58,
+      "spark": [
+        -0.18,
+        2.91,
+        1.0,
+        -2.97,
+        -0.6
+      ],
+      "updatedAt": 1785456000000,
+      "ema_uptrend": true,
+      "name": "IMPERIAL BRANDS PLC ORD 10P"
     },
     {
       "sym": "HABA.DE",
@@ -1500,73 +1500,73 @@
   "crypto": [
     {
       "sym": "BTC-EUR",
-      "price": 54704.9805,
-      "d1": 0.47,
-      "w1": -2.4,
-      "hi52": -49.23,
-      "ytd": -27.55,
+      "price": 54718.7109,
+      "d1": 0.5,
+      "w1": -2.38,
+      "hi52": -49.21,
+      "ytd": -27.53,
       "spark": [
         0.08,
         -0.65,
         0.78,
         -3.06,
-        0.47
+        0.5
       ],
-      "updatedAt": 1785572068964,
+      "updatedAt": 1785589889794,
       "ema_uptrend": false,
       "name": "Bitcoin EUR"
     },
     {
       "sym": "ETH-EUR",
-      "price": 1620.49,
-      "d1": 0.49,
-      "w1": -2.55,
-      "hi52": -61.66,
-      "ytd": -36.53,
+      "price": 1621.14,
+      "d1": 0.53,
+      "w1": -2.51,
+      "hi52": -61.64,
+      "ytd": -36.51,
       "spark": [
         1.4,
         -1.29,
         -0.03,
         -3.09,
-        0.49
+        0.53
       ],
-      "updatedAt": 1785572068966,
+      "updatedAt": 1785589889796,
       "ema_uptrend": true,
       "name": "Ethereum EUR"
     },
     {
       "sym": "SOL-EUR",
-      "price": 63.27,
-      "d1": 0.28,
-      "w1": -2.98,
-      "hi52": -70.55,
-      "ytd": -41.35,
+      "price": 63.28,
+      "d1": 0.29,
+      "w1": -2.97,
+      "hi52": -70.54,
+      "ytd": -41.34,
       "spark": [
         -0.75,
         -0.84,
         0.69,
         -2.37,
-        0.28
+        0.29
       ],
-      "updatedAt": 1785572068967,
+      "updatedAt": 1785589889798,
       "ema_uptrend": false,
       "name": "Solana EUR"
     },
     {
       "sym": "XRP-EUR",
-      "price": 0.9207,
-      "d1": 0.15,
-      "w1": -1.74,
-      "hi52": -68.2,
-      "ytd": -42.39,
+      "price": 0.9233,
+      "d1": 0.44,
+      "w1": -1.46,
+      "hi52": -68.11,
+      "ytd": -42.23,
       "spark": [
         0.1,
         -0.25,
         0.53,
         -2.26,
-        0.15
+        0.44
       ],
-      "updatedAt": 1785572068968,
+      "updatedAt": 1785589889799,
       "ema_uptrend": false,
       "name": "XRP EUR"
     }
