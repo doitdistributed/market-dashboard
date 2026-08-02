@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T19:03:12Z",
+  "generated_at": "2026-08-02T02:25:39Z",
   "futures": [],
   "dxvix": [
     {
@@ -720,19 +720,19 @@
     },
     {
       "sym": "TUI1.DE",
-      "price": 7.44,
-      "d1": 1.58,
-      "w1": 11.68,
-      "hi52": -21.27,
-      "ytd": -17.0,
+      "price": 7.512,
+      "d1": 0.97,
+      "w1": 8.55,
+      "hi52": -20.51,
+      "ytd": -16.2,
       "spark": [
-        3.87,
         3.96,
         1.45,
         0.36,
-        1.58
+        1.58,
+        0.97
       ],
-      "updatedAt": 1785369600000,
+      "updatedAt": 1785456000000,
       "ema_uptrend": true,
       "name": "TUI AG                        N"
     },
@@ -1137,6 +1137,24 @@
       "name": "PUIG BRANDS, S.A. CLASE B"
     },
     {
+      "sym": "EL.PA",
+      "price": 163.6,
+      "d1": -0.91,
+      "w1": 1.05,
+      "hi52": -48.28,
+      "ytd": -36.92,
+      "spark": [
+        0.99,
+        1.16,
+        1.96,
+        -2.1,
+        -0.91
+      ],
+      "updatedAt": 1785369600000,
+      "ema_uptrend": false,
+      "name": "ESSILORLUXOTTICA"
+    },
+    {
       "sym": "EXI5.DE",
       "price": 14.484,
       "d1": -0.34,
@@ -1153,24 +1171,6 @@
       "updatedAt": 1785456000000,
       "ema_uptrend": true,
       "name": "iSh.ST.Eu.600 Real Es.U.ETF DEI"
-    },
-    {
-      "sym": "EL.PA",
-      "price": 164.05,
-      "d1": 0.28,
-      "w1": 0.34,
-      "hi52": -48.14,
-      "ytd": -36.75,
-      "spark": [
-        1.16,
-        1.96,
-        -2.1,
-        -0.91,
-        0.28
-      ],
-      "updatedAt": 1785456000000,
-      "ema_uptrend": false,
-      "name": "ESSILORLUXOTTICA"
     },
     {
       "sym": "0291.HK",
@@ -1500,73 +1500,73 @@
   "crypto": [
     {
       "sym": "BTC-EUR",
-      "price": 54281.3594,
-      "d1": -0.31,
-      "w1": -3.16,
-      "hi52": -49.62,
-      "ytd": -28.11,
+      "price": 55013.0508,
+      "d1": 1.04,
+      "w1": -1.85,
+      "hi52": -48.94,
+      "ytd": -27.14,
       "spark": [
         0.08,
         -0.65,
         0.78,
         -3.06,
-        -0.31
+        1.04
       ],
-      "updatedAt": 1785611029329,
+      "updatedAt": 1785637567471,
       "ema_uptrend": false,
       "name": "Bitcoin EUR"
     },
     {
       "sym": "ETH-EUR",
-      "price": 1593.5,
-      "d1": -1.18,
-      "w1": -4.18,
-      "hi52": -62.3,
-      "ytd": -37.59,
+      "price": 1627.67,
+      "d1": 0.94,
+      "w1": -2.12,
+      "hi52": -61.49,
+      "ytd": -36.25,
       "spark": [
         1.4,
         -1.29,
         -0.03,
         -3.09,
-        -1.18
+        0.94
       ],
-      "updatedAt": 1785611029330,
+      "updatedAt": 1785637567473,
       "ema_uptrend": true,
       "name": "Ethereum EUR"
     },
     {
       "sym": "SOL-EUR",
-      "price": 61.79,
-      "d1": -2.07,
-      "w1": -5.25,
-      "hi52": -71.24,
-      "ytd": -42.72,
+      "price": 63.47,
+      "d1": 0.59,
+      "w1": -2.67,
+      "hi52": -70.45,
+      "ytd": -41.16,
       "spark": [
         -0.75,
         -0.84,
         0.69,
         -2.37,
-        -2.07
+        0.59
       ],
-      "updatedAt": 1785611029331,
+      "updatedAt": 1785637567475,
       "ema_uptrend": false,
       "name": "Solana EUR"
     },
     {
       "sym": "XRP-EUR",
-      "price": 0.913,
-      "d1": -0.68,
-      "w1": -2.56,
-      "hi52": -68.46,
-      "ytd": -42.87,
+      "price": 0.9308,
+      "d1": 1.25,
+      "w1": -0.66,
+      "hi52": -67.85,
+      "ytd": -41.76,
       "spark": [
         0.1,
         -0.25,
         0.53,
         -2.26,
-        -0.68
+        1.25
       ],
-      "updatedAt": 1785611029332,
+      "updatedAt": 1785637567476,
       "ema_uptrend": false,
       "name": "XRP EUR"
     }
