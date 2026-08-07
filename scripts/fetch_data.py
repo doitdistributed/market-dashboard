@@ -574,11 +574,20 @@ def extract_metrics(df, sym, metadata=None, yield_syms=None):
 
     while len(spark) < 5:
         spark.insert(0, 0.0)
-    # 10-EMA vs 20-EMA uptrend signal
+    # Trend signals:
+    # 1. Hyper-sensibel: EMA 5 > EMA 10
+    # 2. Die goldene Mitte: EMA 5 > EMA 15
+    # 3. Standard: EMA 10 > EMA 20
+    ema_5_10 = None
+    ema_5_15 = None
     ema_uptrend = None
     if len(closes) >= 20:
+        ema5 = _calc_ema(closes, 5)
         ema10 = _calc_ema(closes, 10)
+        ema15 = _calc_ema(closes, 15)
         ema20 = _calc_ema(closes, 20)
+        ema_5_10 = bool(ema5 > ema10)
+        ema_5_15 = bool(ema5 > ema15)
         ema_uptrend = bool(ema10 > ema20)
 
     updated_at = None
@@ -615,6 +624,10 @@ def extract_metrics(df, sym, metadata=None, yield_syms=None):
     }
     if updated_at is not None:
         result['updatedAt'] = updated_at
+    if ema_5_10 is not None:
+        result['ema_5_10'] = ema_5_10
+    if ema_5_15 is not None:
+        result['ema_5_15'] = ema_5_15
     if ema_uptrend is not None:
         result['ema_uptrend'] = ema_uptrend
     return result

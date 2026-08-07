@@ -77,51 +77,83 @@ def build_message_text(data, watchlist_symbols=None):
                 if item["sym"] not in [x["sym"] for x in selected_items]:
                     selected_items.append(item)
 
+def format_simple_pct(val):
+    if val is None:
+        return "—"
+    sign = "+" if val > 0 else ""
+    return f"{sign}{val:.2f}%"
+
+def format_trend_icon(val):
+    if val is True:
+        return "✅"
+    elif val is False:
+        return "❌"
+    return "—"
+
+def build_message_text(data, watchlist_symbols=None):
+    all_items = {}
+    categories = [
+        "portfolio_core",
+        "portfolio_us_tech",
+        "portfolio_software",
+        "portfolio_europe",
+        "portfolio_energy",
+        "portfolio_watchlist",
+        "futures",
+        "crypto",
+        "metals",
+        "commodities",
+        "yields",
+        "global",
+    ]
+
+    for cat in categories:
+        for item in data.get(cat, []):
+            sym = item.get("sym")
+            if sym and sym not in all_items:
+                all_items[sym] = item
+
+    selected_items = []
+    if watchlist_symbols:
+        for sym in watchlist_symbols:
+            clean_sym = sym.strip()
+            if clean_sym in all_items:
+                selected_items.append(all_items[clean_sym])
+    else:
+        for cat in ["portfolio_core", "portfolio_us_tech", "futures", "crypto"]:
+            for item in data.get(cat, [])[:4]:
+                if item["sym"] not in [x["sym"] for x in selected_items]:
+                    selected_items.append(item)
+
     if not selected_items:
         return "🔥 *Hot Watch List Daily Update*\nNo selected assets found in current market data."
 
-    uptrend_items = [i for i in selected_items if i.get("ema_uptrend") is True]
-    downtrend_items = [i for i in selected_items if i.get("ema_uptrend") is False]
-    other_items = [i for i in selected_items if i.get("ema_uptrend") is None]
+    lines = ["🔥 *HOT WATCH LIST — TREND MONITOR*", "```"]
+    lines.append(f"{'SYMBOL':<10} {'PREIS':>9} {'1D%':>8} {'1W%':>8}   {'5/10':^4} {'5/15':^4} {'10/20':^4}")
+    lines.append("-" * 55)
 
-    lines = ["🔥 *HOT WATCH LIST — TREND SUMMARY*", ""]
+    for item in selected_items:
+        sym = item.get("sym", "")[:10]
+        price = format_price(item.get("price"))
+        d1 = format_simple_pct(item.get("d1"))
+        w1 = format_simple_pct(item.get("w1"))
+        
+        t_5_10 = format_trend_icon(item.get("ema_5_10"))
+        t_5_15 = format_trend_icon(item.get("ema_5_15"))
+        t_10_20 = format_trend_icon(item.get("ema_uptrend"))
 
-    if uptrend_items:
-        lines.append("🟢 *IM AUFWÄRTSTREND (10-EMA > 20-EMA):*")
-        for item in uptrend_items:
-            sym = item.get("sym", "")
-            name = item.get("name") or sym
-            price = format_price(item.get("price"))
-            d1 = format_pct(item.get("d1"))
-            w1 = format_pct(item.get("w1"))
-            lines.append(f"  • ✅ *{name}* ({sym}): {price} | 1D: {d1} | 1W: {w1}")
-        lines.append("")
+        lines.append(f"{sym:<10} {price:>9} {d1:>8} {w1:>8}   {t_5_10:^4} {t_5_15:^4} {t_10_20:^4}")
 
-    if downtrend_items:
-        lines.append("🔴 *IM ABWÄRTSTREND / NEUTRAL:*")
-        for item in downtrend_items:
-            sym = item.get("sym", "")
-            name = item.get("name") or sym
-            price = format_price(item.get("price"))
-            d1 = format_pct(item.get("d1"))
-            w1 = format_pct(item.get("w1"))
-            lines.append(f"  • ❌ *{name}* ({sym}): {price} | 1D: {d1} | 1W: {w1}")
-        lines.append("")
-
-    if other_items:
-        lines.append("⚪ *WEITERE ASSETS:*")
-        for item in other_items:
-            sym = item.get("sym", "")
-            name = item.get("name") or sym
-            price = format_price(item.get("price"))
-            d1 = format_pct(item.get("d1"))
-            w1 = format_pct(item.get("w1"))
-            lines.append(f"  • *{name}* ({sym}): {price} | 1D: {d1} | 1W: {w1}")
-        lines.append("")
+    lines.append("```")
+    lines.append("*Trend-Legende:*")
+    lines.append("• *5/10*: Hyper-sensibel (EMA 5 > 10)")
+    lines.append("• *5/15*: Die goldene Mitte (EMA 5 > 15)")
+    lines.append("• *10/20*: Standard (EMA 10 > 20)")
 
     generated_at = data.get("generatedAt")
     if generated_at:
-        lines.append(f"_Updated: {generated_at}_")
+        lines.append("")
+        lines.append(f"_Stand: {generated_at}_")
 
     return "\n".join(lines).strip()
 

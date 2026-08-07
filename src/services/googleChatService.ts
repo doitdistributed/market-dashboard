@@ -1,11 +1,16 @@
 import type { MarketData } from '../types';
 import { formatPrice } from '../utils/formatting';
 
-function formatPct(val?: number): string {
+function formatSimplePct(val?: number): string {
   if (val === undefined || val === null || Number.isNaN(val)) return '—';
   const sign = val > 0 ? '+' : '';
-  const emoji = val > 0 ? '📈' : val < 0 ? '📉' : '➖';
-  return `${emoji} ${sign}${val.toFixed(2)}%`;
+  return `${sign}${val.toFixed(2)}%`;
+}
+
+function formatTrendIcon(val?: boolean): string {
+  if (val === true) return '✅';
+  if (val === false) return '❌';
+  return '—';
 }
 
 export async function sendHotWatchlistToGoogleChat(
@@ -20,48 +25,29 @@ export async function sendHotWatchlistToGoogleChat(
     throw new Error('Keine Assets in der Hot Watch List vorhanden.');
   }
 
-  const uptrendItems = items.filter((i) => i.ema_uptrend === true);
-  const downtrendItems = items.filter((i) => i.ema_uptrend === false);
-  const otherItems = items.filter((i) => i.ema_uptrend === undefined);
+  const lines = ['🔥 *HOT WATCH LIST — TREND MONITOR*', '```'];
+  lines.push(`${'SYMBOL'.padEnd(10)} ${'PREIS'.padStart(9)} ${'1D%'.padStart(8)} ${'1W%'.padStart(8)}   ${'5/10'} ${'5/15'} ${'10/20'}`);
+  lines.push('-'.repeat(55));
 
-  const lines = ['🔥 *HOT WATCH LIST — TREND SUMMARY*', ''];
+  items.forEach((item) => {
+    const sym = item.sym.slice(0, 10).padEnd(10);
+    const priceStr = (item.price !== undefined ? formatPrice(item.price) : '—').padStart(9);
+    const d1Str = formatSimplePct(item.d1).padStart(8);
+    const w1Str = formatSimplePct(item.w1).padStart(8);
 
-  if (uptrendItems.length > 0) {
-    lines.push('🟢 *IM AUFWÄRTSTREND (10-EMA > 20-EMA):*');
-    uptrendItems.forEach((item) => {
-      const name = item.name || item.sym;
-      const priceStr = item.price !== undefined ? formatPrice(item.price) : '—';
-      const d1Str = formatPct(item.d1);
-      const w1Str = formatPct(item.w1);
-      lines.push(`  • ✅ *${name}* (${item.sym}): ${priceStr} | 1D: ${d1Str} | 1W: ${w1Str}`);
-    });
-    lines.push('');
-  }
+    const t510 = formatTrendIcon(item.ema_5_10);
+    const t515 = formatTrendIcon(item.ema_5_15);
+    const t1020 = formatTrendIcon(item.ema_uptrend);
 
-  if (downtrendItems.length > 0) {
-    lines.push('🔴 *IM ABWÄRTSTREND / NEUTRAL:*');
-    downtrendItems.forEach((item) => {
-      const name = item.name || item.sym;
-      const priceStr = item.price !== undefined ? formatPrice(item.price) : '—';
-      const d1Str = formatPct(item.d1);
-      const w1Str = formatPct(item.w1);
-      lines.push(`  • ❌ *${name}* (${item.sym}): ${priceStr} | 1D: ${d1Str} | 1W: ${w1Str}`);
-    });
-    lines.push('');
-  }
+    lines.push(`${sym} ${priceStr} ${d1Str} ${w1Str}   ${t510}   ${t515}   ${t1020}`);
+  });
 
-  if (otherItems.length > 0) {
-    lines.push('⚪ *WEITERE ASSETS:*');
-    otherItems.forEach((item) => {
-      const name = item.name || item.sym;
-      const priceStr = item.price !== undefined ? formatPrice(item.price) : '—';
-      const d1Str = formatPct(item.d1);
-      const w1Str = formatPct(item.w1);
-      lines.push(`  • *${name}* (${item.sym}): ${priceStr} | 1D: ${d1Str} | 1W: ${w1Str}`);
-    });
-    lines.push('');
-  }
-
+  lines.push('```');
+  lines.push('*Trend-Legende:*');
+  lines.push('• *5/10*: Hyper-sensibel (EMA 5 > 10)');
+  lines.push('• *5/15*: Die goldene Mitte (EMA 5 > 15)');
+  lines.push('• *10/20*: Standard (EMA 10 > 20)');
+  lines.push('');
   lines.push(`_Gesendet aus Market Dashboard · ${new Date().toLocaleTimeString()} Uhr_`);
 
   const text = lines.join('\n');

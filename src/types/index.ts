@@ -11,7 +11,9 @@ export interface MarketData {
   hi52: number;
   ytd: number;
   spark: number[];
-  ema_uptrend?: boolean;
+  ema_uptrend?: boolean; // 10 vs 20
+  ema_5_10?: boolean;    // 5 vs 10 (Hyper-sensibel)
+  ema_5_15?: boolean;    // 5 vs 15 (Goldene Mitte)
   updatedAt?: number;
 }
 
