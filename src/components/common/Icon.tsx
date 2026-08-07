@@ -7,6 +7,7 @@ export type MaterialIconName =
   | 'check'
   | 'chevron_left'
   | 'chevron_right'
+  | 'chat'
   | 'close'
   | 'content_copy'
   | 'dark_mode'

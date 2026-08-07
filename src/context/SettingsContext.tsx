@@ -13,6 +13,8 @@ interface SettingsContextValue {
   setSparklineMode: (mode: SparklineMode) => void;
   useCustomCharts: boolean;
   setUseCustomCharts: (val: boolean) => void;
+  googleChatWebhookUrl: string;
+  setGoogleChatWebhookUrl: (url: string) => void;
 }
 
 const SettingsContext = createContext<SettingsContextValue | null>(null);
@@ -42,6 +44,10 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     return config.tradingView.useCustomCharts;
   });
 
+  const [googleChatWebhookUrl, setGoogleChatWebhookUrlState] = useState<string>(() => {
+    return localStorage.getItem('googleChatWebhookUrl') || '';
+  });
+
   const setEnableHoverPreview = useCallback((val: boolean) => {
     setEnableHoverPreviewState(val);
     localStorage.setItem('enableHoverPreview', String(val));
@@ -62,6 +68,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     localStorage.setItem('useCustomCharts', String(val));
   }, []);
 
+  const setGoogleChatWebhookUrl = useCallback((url: string) => {
+    setGoogleChatWebhookUrlState(url);
+    localStorage.setItem('googleChatWebhookUrl', url);
+  }, []);
+
   return (
     <SettingsContext.Provider
       value={{
@@ -73,6 +84,8 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         setSparklineMode,
         useCustomCharts,
         setUseCustomCharts,
+        googleChatWebhookUrl,
+        setGoogleChatWebhookUrl,
       }}
     >
       {children}

@@ -46,3 +46,11 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: refresh market data $(date -u '+%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main
           git push
+
+      - name: Send Google Chat Notification
+        if: ${{ secrets.GOOGLE_CHAT_WEBHOOK_URL != '' }}
+        run: uv run python scripts/notify_google_chat.py
+        env:
+          GOOGLE_CHAT_WEBHOOK_URL: ${{ secrets.GOOGLE_CHAT_WEBHOOK_URL }}
+          GOOGLE_CHAT_WATCHLIST: ${{ secrets.GOOGLE_CHAT_WATCHLIST }}
+

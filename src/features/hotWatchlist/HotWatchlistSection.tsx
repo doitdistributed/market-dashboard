@@ -1,7 +1,9 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { Card, CardLabel, MarketTable, Section } from '../../components/common';
 import { Icon } from '../../components/common/Icon';
 import { useHotWatchlist } from '../../context/HotWatchlistContext';
+import { useSettings } from '../../context/SettingsContext';
+import { sendHotWatchlistToGoogleChat } from '../../services/googleChatService';
 import { useMarketStore } from '../../store/marketStore';
 import { colors } from '../../utils/formatting';
 import { usePenCompatibleClick } from '../../utils/penClick';
@@ -14,9 +16,33 @@ const rankByW1: Pick<MarketTableOptions, 'sortBy' | 'sortOrder'> = {
 
 export const HotWatchlistSection: React.FC = () => {
   const { pinnedSymbols, clearAllPins } = useHotWatchlist();
+  const { googleChatWebhookUrl } = useSettings();
   const store = useMarketStore();
 
+  const [sendingChat, setSendingChat] = useState(false);
+  const [chatFeedback, setChatFeedback] = useState<string | null>(null);
+
   const clearPenClick = usePenCompatibleClick(clearAllPins);
+
+  const handleSendChat = async () => {
+    if (!googleChatWebhookUrl) {
+      alert('Bitte trage zuerst deine Google Chat Webhook URL in den Einstellungen (⚙️) ein.');
+      return;
+    }
+    setSendingChat(true);
+    setChatFeedback(null);
+    try {
+      await sendHotWatchlistToGoogleChat(googleChatWebhookUrl, hotItems);
+      setChatFeedback('✅ Gesendet!');
+      setTimeout(() => setChatFeedback(null), 3000);
+    } catch (err) {
+      alert(`Fehler beim Senden: ${err instanceof Error ? err.message : String(err)}`);
+    } finally {
+      setSendingChat(false);
+    }
+  };
+
+  const sendChatPenClick = usePenCompatibleClick(handleSendChat);
 
   // Map all known market items across categories
   const hotItems = useMemo(() => {
@@ -98,15 +124,27 @@ export const HotWatchlistSection: React.FC = () => {
         }
         symbols={hotItems.map((x) => x.sym)}
         headerAction={
-          <button
-            type="button"
-            className="table-expand-btn"
-            {...clearPenClick}
-            title="Alle aus der Hot Watch List entfernen"
-            style={{ color: colors.red, borderColor: colors.border }}
-          >
-            <Icon name="delete_outline" size="xs" /> CLEAR ALL
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <button
+              type="button"
+              className="table-expand-btn"
+              {...sendChatPenClick}
+              disabled={sendingChat}
+              title="Hot Watch List an Google Chat senden"
+              style={{ color: colors.accent, borderColor: colors.border }}
+            >
+              <Icon name="chat" size="xs" /> {chatFeedback || (sendingChat ? 'SENDING...' : 'TO CHAT')}
+            </button>
+            <button
+              type="button"
+              className="table-expand-btn"
+              {...clearPenClick}
+              title="Alle aus der Hot Watch List entfernen"
+              style={{ color: colors.red, borderColor: colors.border }}
+            >
+              <Icon name="delete_outline" size="xs" /> CLEAR ALL
+            </button>
+          </div>
         }
         style={{ marginBottom: '9px' }}
       >

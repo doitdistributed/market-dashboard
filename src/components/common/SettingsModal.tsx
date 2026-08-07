@@ -22,6 +22,8 @@ export function SettingsModal({ open, onClose }: SettingsModalProps) {
     setSparklineMode,
     useCustomCharts,
     setUseCustomCharts,
+    googleChatWebhookUrl,
+    setGoogleChatWebhookUrl,
   } = useSettings();
 
   useScrollLock(open);
@@ -227,6 +229,45 @@ export function SettingsModal({ open, onClose }: SettingsModalProps) {
             </label>
             <p style={{ margin: 0, fontSize: '11px', color: 'var(--text2)', lineHeight: '1.4' }}>
               Choose the visualization style for 5-day price changes in the market tables, or disable it completely.
+            </p>
+          </div>
+
+          <hr style={{ border: 'none', borderTop: '1px solid var(--border)', margin: '4px 0' }} />
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+            <label
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '4px',
+                cursor: 'pointer',
+                userSelect: 'none',
+              }}
+            >
+              <span style={{ fontSize: '13px', color: 'var(--text)', fontWeight: 500 }}>
+                Google Chat Webhook URL
+              </span>
+              <input
+                type="url"
+                placeholder="https://chat.googleapis.com/v1/spaces/.../messages?key=..."
+                value={googleChatWebhookUrl}
+                onChange={(e) => setGoogleChatWebhookUrl(e.target.value)}
+                style={{
+                  background: 'var(--bg2)',
+                  color: 'var(--text)',
+                  border: '1px solid var(--border2)',
+                  borderRadius: '4px',
+                  padding: '6px 10px',
+                  fontSize: '11px',
+                  fontFamily: 'IBM Plex Mono, monospace',
+                  outline: 'none',
+                  width: '100%',
+                  boxSizing: 'border-box',
+                }}
+              />
+            </label>
+            <p style={{ margin: 0, fontSize: '11px', color: 'var(--text2)', lineHeight: '1.4' }}>
+              Enter your Google Chat Webhook URL to enable sending your Hot Watch List directly to your Chat space.
             </p>
           </div>
         </div>
