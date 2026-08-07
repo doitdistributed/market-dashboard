@@ -5,7 +5,9 @@ import { ChartModalProvider } from './context/ChartModalContext';
 import { ThemeProvider } from './context/ThemeContext';
 import { SettingsProvider } from './context/SettingsContext';
 import { SymbolPreviewProvider } from './context/SymbolPreviewContext';
+import { HotWatchlistProvider } from './context/HotWatchlistContext';
 import { MacroDivider, MacroSection } from './features/macro/MacroSection';
+import { HotWatchlistSection } from './features/hotWatchlist/HotWatchlistSection';
 import { EquitiesSection } from './features/equities/EquitiesSection';
 import { BreadthSection } from './features/breadth/BreadthSection';
 import { PositionCalculator } from './features/calculator/PositionCalculator';
@@ -196,6 +198,8 @@ function DashboardContent() {
 
         <MacroSection />
         <MacroDivider />
+        <HotWatchlistSection />
+        <MacroDivider />
         <EquitiesSection />
         <MacroDivider />
         <BreadthSection breadth={store.breadth} />
@@ -222,11 +226,13 @@ function App() {
   return (
     <ThemeProvider>
       <SettingsProvider>
-        <ChartModalProvider>
-          <SymbolPreviewProvider>
-            <DashboardContent />
-          </SymbolPreviewProvider>
-        </ChartModalProvider>
+        <HotWatchlistProvider>
+          <ChartModalProvider>
+            <SymbolPreviewProvider>
+              <DashboardContent />
+            </SymbolPreviewProvider>
+          </ChartModalProvider>
+        </HotWatchlistProvider>
       </SettingsProvider>
     </ThemeProvider>
   );

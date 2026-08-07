@@ -12,6 +12,7 @@ import { Icon } from './Icon';
 import { SymbolLink } from './TradingViewModal';
 import { HoldingsFlyover } from './HoldingsFlyover';
 import { CardSearchContext } from './CardSearchContext';
+import { useHotWatchlist } from '../../context/HotWatchlistContext';
 
 type SortKey = 'name' | 'price' | 'd1' | 'w1' | 'hi52' | 'ytd' | 'ema_uptrend';
 type SortOrder = 'asc' | 'desc';
@@ -155,6 +156,7 @@ export const MarketTable: React.FC<MarketTableProps> = ({
   maxRows,
 }) => {
   const { sparklineMode } = useSettings();
+  const { isPinned, togglePin } = useHotWatchlist();
   const shouldShowSpark = showSpark && sparklineMode !== 'none';
 
   const [holdingsFlyout, setHoldingsFlyout] = useState<{
@@ -286,10 +288,26 @@ export const MarketTable: React.FC<MarketTableProps> = ({
               }}
             >
                 <td style={{ ...tdStyle, textAlign: 'left' }}>
-                  <SymbolLink sym={item.sym} name={displayName} siblings={siblings} />
-                  <span style={{ color: colors.text3, fontSize: '10px', display: 'block', letterSpacing: '0.5px' }}>
-                    {meta.sym || item.sym}
-                  </span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <button
+                      type="button"
+                      className={`pin-btn${isPinned(item.sym) ? ' pinned' : ''}`}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        togglePin(item.sym);
+                      }}
+                      title={isPinned(item.sym) ? 'Aus Hot Watch List entfernen' : 'Zur Hot Watch List hinzufügen'}
+                      aria-label={`Pin ${item.sym}`}
+                    >
+                      <Icon name={isPinned(item.sym) ? 'star' : 'star_border'} size="xs" />
+                    </button>
+                    <div style={{ minWidth: 0, flex: 1 }}>
+                      <SymbolLink sym={item.sym} name={displayName} siblings={siblings} />
+                      <span style={{ color: colors.text3, fontSize: '10px', display: 'block', letterSpacing: '0.5px' }}>
+                        {meta.sym || item.sym}
+                      </span>
+                    </div>
+                  </div>
                 </td>
                 {hasPrice && item.price !== undefined && (
                   <td

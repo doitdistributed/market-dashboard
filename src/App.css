@@ -1219,3 +1219,37 @@ body::before {
   visibility: visible;
   opacity: 1;
 }
+
+/* Pin Button for Hot Watchlist */
+.pin-btn {
+  background: transparent;
+  border: none;
+  padding: 2px;
+  margin: 0;
+  cursor: pointer;
+  color: var(--text3);
+  opacity: 0.35;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  transition: opacity 0.15s ease, color 0.15s ease, transform 0.15s ease;
+  line-height: 1;
+}
+
+.pin-btn:hover {
+  opacity: 1;
+  color: #eab308;
+  transform: scale(1.15);
+}
+
+.pin-btn.pinned {
+  opacity: 1;
+  color: #eab308;
+}
+
+.pin-btn.pinned:hover {
+  transform: scale(1.15);
+  color: #f59e0b;
+}
+
