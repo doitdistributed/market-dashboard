@@ -80,22 +80,50 @@ def build_message_text(data, watchlist_symbols=None):
     if not selected_items:
         return "🔥 *Hot Watch List Daily Update*\nNo selected assets found in current market data."
 
-    lines = ["🔥 *HOT WATCH LIST DAILY SUMMARY*", ""]
-    for item in selected_items:
-        sym = item.get("sym", "")
-        name = item.get("name") or sym
-        price = format_price(item.get("price"))
-        d1 = format_pct(item.get("d1"))
-        w1 = format_pct(item.get("w1"))
-        
-        lines.append(f"• *{name}* ({sym}): {price} | 1D: {d1} | 1W: {w1}")
+    uptrend_items = [i for i in selected_items if i.get("ema_uptrend") is True]
+    downtrend_items = [i for i in selected_items if i.get("ema_uptrend") is False]
+    other_items = [i for i in selected_items if i.get("ema_uptrend") is None]
+
+    lines = ["🔥 *HOT WATCH LIST — TREND SUMMARY*", ""]
+
+    if uptrend_items:
+        lines.append("🟢 *IM AUFWÄRTSTREND (10-EMA > 20-EMA):*")
+        for item in uptrend_items:
+            sym = item.get("sym", "")
+            name = item.get("name") or sym
+            price = format_price(item.get("price"))
+            d1 = format_pct(item.get("d1"))
+            w1 = format_pct(item.get("w1"))
+            lines.append(f"  • ✅ *{name}* ({sym}): {price} | 1D: {d1} | 1W: {w1}")
+        lines.append("")
+
+    if downtrend_items:
+        lines.append("🔴 *IM ABWÄRTSTREND / NEUTRAL:*")
+        for item in downtrend_items:
+            sym = item.get("sym", "")
+            name = item.get("name") or sym
+            price = format_price(item.get("price"))
+            d1 = format_pct(item.get("d1"))
+            w1 = format_pct(item.get("w1"))
+            lines.append(f"  • ❌ *{name}* ({sym}): {price} | 1D: {d1} | 1W: {w1}")
+        lines.append("")
+
+    if other_items:
+        lines.append("⚪ *WEITERE ASSETS:*")
+        for item in other_items:
+            sym = item.get("sym", "")
+            name = item.get("name") or sym
+            price = format_price(item.get("price"))
+            d1 = format_pct(item.get("d1"))
+            w1 = format_pct(item.get("w1"))
+            lines.append(f"  • *{name}* ({sym}): {price} | 1D: {d1} | 1W: {w1}")
+        lines.append("")
 
     generated_at = data.get("generatedAt")
     if generated_at:
-        lines.append("")
         lines.append(f"_Updated: {generated_at}_")
 
-    return "\n".join(lines)
+    return "\n".join(lines).strip()
 
 def send_notification(webhook_url, text):
     payload = json.dumps({"text": text}).encode("utf-8")
