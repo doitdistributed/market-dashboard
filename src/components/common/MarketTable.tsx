@@ -115,7 +115,7 @@ function TrendCell({ value }: { value?: boolean }) {
   }
   if (value === false) {
     return (
-      <span className="ema-dn" title="10-EMA ≤ 20-EMA" style={{ color: colors.text3, fontSize: '12px', opacity: 0.5 }}>
+      <span className="ema-dn" title="10-EMA ≤ 20-EMA · Short-term downtrend" style={{ color: colors.red, fontSize: '13px', fontWeight: 600, opacity: 0.85 }}>
         <Icon name="close" size="sm" />
       </span>
     );
