@@ -105,22 +105,40 @@ function SortableHeader({
   );
 }
 
-function TrendCell({ value }: { value?: boolean }) {
-  if (value === true) {
-    return (
-      <span className="ema-up" title="10-EMA > 20-EMA · Short-term uptrend" style={{ color: colors.green, fontSize: '13px', fontWeight: 600 }}>
-        <Icon name="check" size="sm" />
-      </span>
-    );
-  }
-  if (value === false) {
-    return (
-      <span className="ema-dn" title="10-EMA ≤ 20-EMA · Short-term downtrend" style={{ color: colors.red, fontSize: '13px', fontWeight: 600, opacity: 0.85 }}>
-        <Icon name="close" size="sm" />
-      </span>
-    );
-  }
-  return <span style={{ color: colors.text3, fontSize: '11px' }}>—</span>;
+function TrendBadge({ label, value, title }: { label: string; value?: boolean; title: string }) {
+  const icon = value === true ? 'check' : value === false ? 'close' : undefined;
+  const color = value === true ? colors.green : value === false ? colors.red : colors.text3;
+
+  return (
+    <span
+      title={title}
+      style={{
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: '2px',
+        fontSize: '9.5px',
+        color,
+        background: colors.bg3,
+        padding: '2px 5px',
+        borderRadius: '3px',
+        border: `1px solid ${colors.border}`,
+        fontFamily: 'IBM Plex Mono, monospace',
+      }}
+    >
+      <span style={{ color: colors.text3, fontSize: '8.5px' }}>{label}:</span>
+      {icon ? <Icon name={icon} size="xs" /> : '—'}
+    </span>
+  );
+}
+
+function TrendCell({ item }: { item: MarketData }) {
+  return (
+    <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+      <TrendBadge label="5/10" value={item.ema_5_10} title="Hyper-sensibel: EMA 5 > EMA 10" />
+      <TrendBadge label="5/15" value={item.ema_5_15} title="Die goldene Mitte: EMA 5 > EMA 15" />
+      <TrendBadge label="10/20" value={item.ema_uptrend} title="Standard: EMA 10 > EMA 20" />
+    </div>
+  );
 }
 
 function HoldingsButton({ onOpen }: { onOpen: () => void }) {
@@ -350,7 +368,7 @@ export const MarketTable: React.FC<MarketTableProps> = ({
                 )}
                 {showTrend && (
                   <td style={{ ...tdStyle, textAlign: 'center', padding: '3px 8px' }}>
-                    <TrendCell value={item.ema_uptrend} />
+                    <TrendCell item={item} />
                   </td>
                 )}
                 {showHoldings && (
