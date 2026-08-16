@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:22:06Z",
+  "generated_at": "2026-08-16T12:18:06Z",
   "futures": [],
   "dxvix": [
     {
@@ -232,8 +232,8 @@
       "price": 5.265,
       "d1": 5.2,
       "w1": 5.4,
-      "hi52": -1.6,
-      "ytd": 40.1,
+      "hi52": -0.8,
+      "ytd": 9.4,
       "spark": [
         3.2,
         -0.7,
@@ -241,10 +241,7 @@
         -3.4,
         5.2
       ],
-      "updatedAt": 1786665600000,
-      "ema_5_10": true,
-      "ema_5_15": true,
-      "ema_uptrend": true
+      "updatedAt": 1786665600000
     }
   ],
   "global": [
@@ -831,7 +828,7 @@
         -1.23
       ],
       "updatedAt": 1786665600000,
-      "ema_5_10": false,
+      "ema_5_10": true,
       "ema_5_15": false,
       "ema_uptrend": false,
       "name": "INFINEON TECHNOLOGIES AG      N"
@@ -1217,7 +1214,7 @@
       "updatedAt": 1786665600000,
       "ema_5_10": false,
       "ema_5_15": false,
-      "ema_uptrend": true,
+      "ema_uptrend": false,
       "name": "Hexcel Corporation"
     },
     {
@@ -1597,7 +1594,7 @@
       "updatedAt": 1786665600000,
       "ema_5_10": false,
       "ema_5_15": false,
-      "ema_uptrend": false,
+      "ema_uptrend": true,
       "name": "Fielmann Group AG             I"
     },
     {
@@ -1664,19 +1661,19 @@
   "crypto": [
     {
       "sym": "BTC-EUR",
-      "price": 54485.0391,
-      "d1": 0.08,
-      "w1": -1.57,
-      "hi52": -49.43,
-      "ytd": -27.84,
+      "price": 54448.5195,
+      "d1": -0.05,
+      "w1": -1.1,
+      "hi52": -49.47,
+      "ytd": -27.89,
       "spark": [
-        -0.54,
         -0.1,
         -0.05,
         -0.96,
-        0.08
+        0.06,
+        -0.05
       ],
-      "updatedAt": 1786861352501,
+      "updatedAt": 1786882710603,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1684,19 +1681,19 @@
     },
     {
       "sym": "ETH-EUR",
-      "price": 1624.14,
+      "price": 1624.2,
       "d1": -0.1,
-      "w1": 0.21,
+      "w1": -0.34,
       "hi52": -61.57,
       "ytd": -36.39,
       "spark": [
-        0.56,
         -0.04,
         0.26,
         -0.47,
+        -0.0,
         -0.1
       ],
-      "updatedAt": 1786861352503,
+      "updatedAt": 1786882710604,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1704,19 +1701,19 @@
     },
     {
       "sym": "SOL-EUR",
-      "price": 65.06,
-      "d1": -0.09,
-      "w1": -1.09,
-      "hi52": -69.71,
-      "ytd": -39.69,
+      "price": 65.0,
+      "d1": -0.1,
+      "w1": -1.53,
+      "hi52": -69.74,
+      "ytd": -39.74,
       "spark": [
-        0.35,
         -0.75,
         0.81,
         -1.4,
-        -0.09
+        -0.09,
+        -0.1
       ],
-      "updatedAt": 1786861352504,
+      "updatedAt": 1786882710606,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1724,19 +1721,19 @@
     },
     {
       "sym": "XRP-EUR",
-      "price": 0.864,
-      "d1": 0.14,
-      "w1": -1.38,
-      "hi52": -68.15,
-      "ytd": -45.94,
+      "price": 0.8636,
+      "d1": -0.23,
+      "w1": -2.45,
+      "hi52": -68.17,
+      "ytd": -45.96,
       "spark": [
-        1.05,
         -1.58,
         0.33,
         -1.29,
-        0.14
+        0.32,
+        -0.23
       ],
-      "updatedAt": 1786861352506,
+      "updatedAt": 1786882710608,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -2124,7 +2121,7 @@
       "new_lows": 2
     },
     "pct_above_sma20": 67.6,
-    "pct_above_sma50": 70.5,
+    "pct_above_sma50": 70.3,
     "pct_above_sma200": 74.5
   },
   "etfmain": [
