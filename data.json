@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-17T00:38:45Z",
+  "generated_at": "2026-08-17T06:32:57Z",
   "futures": [],
   "dxvix": [
     {
       "sym": "DX-Y.NYB",
-      "price": 99.529,
-      "d1": -0.14,
-      "w1": -0.28,
-      "hi52": -2.23,
-      "ytd": 1.13,
+      "price": 99.496,
+      "d1": -0.17,
+      "w1": -0.31,
+      "hi52": -2.26,
+      "ytd": 1.09,
       "spark": [
         0.01,
         0.19,
         -0.05,
         -0.29,
-        -0.14
+        -0.17
       ],
-      "updatedAt": 1786838400000,
+      "updatedAt": 1786948403135,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -46,19 +46,19 @@
   "metals": [
     {
       "sym": "GC=F",
-      "price": 4443.7998,
-      "d1": 1.45,
-      "w1": 1.88,
-      "hi52": -20.45,
-      "ytd": 3.0,
+      "price": 4453.0,
+      "d1": 1.66,
+      "w1": 2.09,
+      "hi52": -20.29,
+      "ytd": 3.21,
       "spark": [
         0.49,
         0.59,
         -1.03,
         0.38,
-        1.45
+        1.66
       ],
-      "updatedAt": 1786838400000,
+      "updatedAt": 1786948406598,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -66,19 +66,19 @@
     },
     {
       "sym": "SI=F",
-      "price": 65.36,
-      "d1": 0.57,
-      "w1": 0.39,
-      "hi52": -46.12,
-      "ytd": -7.36,
+      "price": 65.89,
+      "d1": 1.39,
+      "w1": 1.2,
+      "hi52": -45.68,
+      "ytd": -6.61,
       "spark": [
         -0.52,
         1.21,
         -1.04,
         0.18,
-        0.57
+        1.39
       ],
-      "updatedAt": 1786838400000,
+      "updatedAt": 1786948406600,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -86,19 +86,19 @@
     },
     {
       "sym": "HG=F",
-      "price": 6.6475,
-      "d1": 0.73,
-      "w1": 0.8,
-      "hi52": -1.2,
-      "ytd": 17.86,
+      "price": 6.7275,
+      "d1": 1.94,
+      "w1": 2.02,
+      "hi52": -0.21,
+      "ytd": 19.28,
       "spark": [
         0.27,
         -0.23,
         -0.07,
         0.11,
-        0.73
+        1.94
       ],
-      "updatedAt": 1786838400000,
+      "updatedAt": 1786948406601,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -106,19 +106,19 @@
     },
     {
       "sym": "PL=F",
-      "price": 1766.5,
-      "d1": 0.94,
-      "w1": 1.26,
-      "hi52": -38.07,
-      "ytd": -16.9,
+      "price": 1764.3,
+      "d1": 0.82,
+      "w1": 1.13,
+      "hi52": -38.15,
+      "ytd": -17.0,
       "spark": [
         0.07,
         0.88,
         -2.04,
         1.44,
-        0.94
+        0.82
       ],
-      "updatedAt": 1786838400000,
+      "updatedAt": 1786948406603,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -126,19 +126,19 @@
     },
     {
       "sym": "PA=F",
-      "price": 1328.5,
-      "d1": 0.45,
-      "w1": -3.54,
-      "hi52": -38.78,
-      "ytd": -20.35,
+      "price": 1331.0,
+      "d1": 0.64,
+      "w1": -3.35,
+      "hi52": -38.66,
+      "ytd": -20.2,
       "spark": [
         -0.81,
         0.3,
         -3.47,
         -0.01,
-        0.45
+        0.64
       ],
-      "updatedAt": 1786838400000,
+      "updatedAt": 1786948406605,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -148,19 +148,19 @@
   "commod": [
     {
       "sym": "CL=F",
-      "price": 82.11,
-      "d1": -0.35,
-      "w1": -0.02,
-      "hi52": -31.28,
-      "ytd": 43.25,
+      "price": 81.74,
+      "d1": -0.8,
+      "w1": -0.47,
+      "hi52": -31.59,
+      "ytd": 42.6,
       "spark": [
         1.3,
         0.08,
         -2.43,
         1.42,
-        -0.35
+        -0.8
       ],
-      "updatedAt": 1786838400000,
+      "updatedAt": 1786948407846,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -168,19 +168,19 @@
     },
     {
       "sym": "NG=F",
-      "price": 2.671,
-      "d1": -2.27,
-      "w1": -4.4,
-      "hi52": -65.87,
-      "ytd": -26.17,
+      "price": 2.652,
+      "d1": -2.96,
+      "w1": -5.08,
+      "hi52": -66.12,
+      "ytd": -26.7,
       "spark": [
         -0.97,
         1.34,
         -2.75,
         0.22,
-        -2.27
+        -2.96
       ],
-      "updatedAt": 1786838400000,
+      "updatedAt": 1786948407848,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -244,19 +244,19 @@
   "global": [
     {
       "sym": "^N225",
-      "price": 68998.25,
-      "d1": 0.41,
-      "w1": 5.17,
-      "hi52": -5.26,
-      "ytd": 33.12,
+      "price": 69120.4219,
+      "d1": 0.59,
+      "w1": 5.36,
+      "hi52": -5.1,
+      "ytd": 33.35,
       "spark": [
         2.08,
         0.83,
         1.16,
         0.59,
-        0.41
+        0.59
       ],
-      "updatedAt": 1786926065000,
+      "updatedAt": 1786947475000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -284,39 +284,39 @@
     },
     {
       "sym": "^NSEI",
-      "price": 24366.0,
-      "d1": -0.12,
-      "w1": -0.83,
-      "hi52": -7.61,
-      "ytd": -6.81,
+      "price": 24273.0,
+      "d1": -0.38,
+      "w1": -1.26,
+      "hi52": -7.96,
+      "ytd": -7.17,
       "spark": [
-        0.05,
         -0.46,
         -0.15,
         -0.16,
-        -0.12
+        -0.12,
+        -0.38
       ],
-      "updatedAt": 1786701670000,
+      "updatedAt": 1786948377000,
       "ema_5_10": false,
-      "ema_5_15": true,
+      "ema_5_15": false,
       "ema_uptrend": true,
       "name": "NIFTY 50"
     },
     {
       "sym": "000001.SS",
-      "price": 3927.177,
-      "d1": 0.01,
-      "w1": -0.33,
-      "hi52": -7.79,
-      "ytd": -2.39,
+      "price": 3974.8281,
+      "d1": 1.21,
+      "w1": 0.21,
+      "hi52": -6.67,
+      "ytd": -1.21,
       "spark": [
-        0.67,
         -0.82,
         0.32,
         -0.5,
-        0.01
+        0.01,
+        1.21
       ],
-      "updatedAt": 1786690824000,
+      "updatedAt": 1786947475000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -324,19 +324,19 @@
     },
     {
       "sym": "^HSI",
-      "price": 25116.8496,
-      "d1": -1.1,
-      "w1": -2.15,
-      "hi52": -10.48,
-      "ytd": -4.64,
+      "price": 25564.5508,
+      "d1": 1.78,
+      "w1": -1.44,
+      "hi52": -8.88,
+      "ytd": -2.94,
       "spark": [
-        1.05,
         -1.1,
         -0.83,
         -0.17,
-        -1.1
+        -1.1,
+        1.78
       ],
-      "updatedAt": 1786694936000,
+      "updatedAt": 1786947478000,
       "ema_5_10": false,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -347,7 +347,7 @@
       "price": 10750.0996,
       "d1": -0.21,
       "w1": -1.39,
-      "hi52": -2.09,
+      "hi52": -2.18,
       "ytd": 8.03,
       "spark": [
         -0.35,
@@ -358,7 +358,7 @@
       ],
       "updatedAt": 1786721730000,
       "ema_5_10": false,
-      "ema_5_15": true,
+      "ema_5_15": false,
       "ema_uptrend": true,
       "name": "FTSE 100"
     },
@@ -805,7 +805,7 @@
         -1.23
       ],
       "updatedAt": 1786665600000,
-      "ema_5_10": false,
+      "ema_5_10": true,
       "ema_5_15": false,
       "ema_uptrend": false,
       "name": "INFINEON TECHNOLOGIES AG      N"
@@ -1191,7 +1191,7 @@
       "updatedAt": 1786665600000,
       "ema_5_10": false,
       "ema_5_15": false,
-      "ema_uptrend": true,
+      "ema_uptrend": false,
       "name": "Hexcel Corporation"
     },
     {
@@ -1288,7 +1288,7 @@
         0.0,
         0.0
       ],
-      "updatedAt": 1786927158807,
+      "updatedAt": 1786948396364,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": false,
@@ -1353,26 +1353,6 @@
       "ema_5_15": false,
       "ema_uptrend": false,
       "name": "HAMBORNER REIT AG             N"
-    },
-    {
-      "sym": "0291.HK",
-      "price": 22.28,
-      "d1": 0.0,
-      "w1": -0.36,
-      "hi52": -22.32,
-      "ytd": -14.15,
-      "spark": [
-        0.81,
-        -1.69,
-        1.53,
-        -0.98,
-        0.0
-      ],
-      "updatedAt": 1786665600000,
-      "ema_5_10": false,
-      "ema_5_15": false,
-      "ema_uptrend": false,
-      "name": "CHINA RES BEER"
     },
     {
       "sym": "XDRE.DE",
@@ -1453,6 +1433,26 @@
       "ema_5_15": true,
       "ema_uptrend": true,
       "name": "thyssenkrupp nucera AG&Co.KGaAI"
+    },
+    {
+      "sym": "0291.HK",
+      "price": 22.28,
+      "d1": 0.0,
+      "w1": -1.15,
+      "hi52": -22.32,
+      "ytd": -14.15,
+      "spark": [
+        -1.69,
+        1.53,
+        -0.98,
+        0.0,
+        0.0
+      ],
+      "updatedAt": 1786948396366,
+      "ema_5_10": false,
+      "ema_5_15": false,
+      "ema_uptrend": false,
+      "name": "CHINA RES BEER"
     },
     {
       "sym": "LIN",
@@ -1571,7 +1571,7 @@
       "updatedAt": 1786665600000,
       "ema_5_10": false,
       "ema_5_15": false,
-      "ema_uptrend": false,
+      "ema_uptrend": true,
       "name": "Fielmann Group AG             I"
     },
     {
@@ -1638,19 +1638,19 @@
   "crypto": [
     {
       "sym": "BTC-EUR",
-      "price": 54158.6211,
-      "d1": -0.58,
-      "w1": -1.63,
-      "hi52": -49.73,
-      "ytd": -28.28,
+      "price": 54805.3594,
+      "d1": 0.6,
+      "w1": -0.45,
+      "hi52": -49.13,
+      "ytd": -27.42,
       "spark": [
         -0.1,
         -0.05,
         -0.96,
         0.06,
-        -0.58
+        0.6
       ],
-      "updatedAt": 1786927167153,
+      "updatedAt": 1786948401149,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1658,59 +1658,59 @@
     },
     {
       "sym": "ETH-EUR",
-      "price": 1616.63,
-      "d1": -0.57,
-      "w1": -0.81,
-      "hi52": -61.75,
-      "ytd": -36.68,
+      "price": 1639.51,
+      "d1": 0.84,
+      "w1": 0.59,
+      "hi52": -61.21,
+      "ytd": -35.79,
       "spark": [
         -0.04,
         0.26,
         -0.47,
         -0.0,
-        -0.57
+        0.84
       ],
-      "updatedAt": 1786927167154,
+      "updatedAt": 1786948401151,
       "ema_5_10": false,
       "ema_5_15": false,
-      "ema_uptrend": false,
+      "ema_uptrend": true,
       "name": "Ethereum EUR"
     },
     {
       "sym": "SOL-EUR",
-      "price": 64.25,
-      "d1": -1.25,
-      "w1": -2.66,
-      "hi52": -70.09,
-      "ytd": -40.44,
+      "price": 65.1,
+      "d1": 0.06,
+      "w1": -1.37,
+      "hi52": -69.69,
+      "ytd": -39.65,
       "spark": [
         -0.75,
         0.81,
         -1.4,
         -0.09,
-        -1.25
+        0.06
       ],
-      "updatedAt": 1786927167156,
-      "ema_5_10": false,
-      "ema_5_15": false,
-      "ema_uptrend": false,
+      "updatedAt": 1786948401153,
+      "ema_5_10": true,
+      "ema_5_15": true,
+      "ema_uptrend": true,
       "name": "Solana EUR"
     },
     {
       "sym": "XRP-EUR",
-      "price": 0.8539,
-      "d1": -1.35,
-      "w1": -3.54,
-      "hi52": -68.53,
-      "ytd": -46.57,
+      "price": 0.8655,
+      "d1": -0.01,
+      "w1": -2.23,
+      "hi52": -68.1,
+      "ytd": -45.84,
       "spark": [
         -1.58,
         0.33,
         -1.29,
         0.32,
-        -1.35
+        -0.01
       ],
-      "updatedAt": 1786927167157,
+      "updatedAt": 1786948401154,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -2097,8 +2097,8 @@
       "new_highs": 48,
       "new_lows": 2
     },
-    "pct_above_sma20": 67.6,
-    "pct_above_sma50": 70.3,
+    "pct_above_sma20": 67.8,
+    "pct_above_sma50": 70.5,
     "pct_above_sma200": 74.5
   },
   "etfmain": [
