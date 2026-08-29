@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-29T01:18:15Z",
+  "generated_at": "2026-08-29T11:57:31Z",
   "futures": [],
   "dxvix": [
     {
       "sym": "DX-Y.NYB",
-      "price": 99.677,
-      "d1": 0.52,
-      "w1": 0.89,
-      "hi52": -2.09,
-      "ytd": 1.28,
+      "price": 99.16,
+      "d1": -0.01,
+      "w1": 0.26,
+      "hi52": -2.59,
+      "ytd": 0.75,
       "spark": [
+        -0.1,
         0.2,
         -0.08,
         0.25,
-        -0.01,
-        0.52
+        -0.01
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -24,19 +24,19 @@
     },
     {
       "sym": "^VIX",
-      "price": 14.43,
-      "d1": -0.55,
-      "w1": -4.63,
-      "hi52": -59.12,
-      "ytd": -0.55,
+      "price": 14.51,
+      "d1": -4.6,
+      "w1": -9.37,
+      "hi52": -58.9,
+      "ytd": 0.0,
       "spark": [
+        -5.5,
         4.76,
         -2.52,
         -1.55,
-        -4.6,
-        -0.55
+        -4.6
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -46,19 +46,19 @@
   "metals": [
     {
       "sym": "GC=F",
-      "price": 4504.1001,
-      "d1": -2.29,
-      "w1": -2.6,
-      "hi52": -19.37,
-      "ytd": 4.4,
+      "price": 4609.7002,
+      "d1": 0.25,
+      "w1": 2.07,
+      "hi52": -17.48,
+      "ytd": 6.84,
       "spark": [
+        2.39,
         0.36,
         -0.06,
         -0.86,
-        0.25,
-        -2.29
+        0.25
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -66,19 +66,19 @@
     },
     {
       "sym": "SI=F",
-      "price": 67.09,
-      "d1": -3.37,
-      "w1": -3.42,
-      "hi52": -44.69,
-      "ytd": -4.91,
+      "price": 69.429,
+      "d1": 2.12,
+      "w1": 2.06,
+      "hi52": -42.76,
+      "ytd": -1.6,
       "spark": [
+        2.12,
         -1.33,
         0.14,
         -0.94,
-        2.12,
-        -3.37
+        2.12
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -86,19 +86,19 @@
     },
     {
       "sym": "HG=F",
-      "price": 6.64,
-      "d1": 0.8,
-      "w1": 0.92,
-      "hi52": -1.63,
-      "ytd": 17.73,
+      "price": 6.587,
+      "d1": -0.11,
+      "w1": 1.97,
+      "hi52": -2.41,
+      "ytd": 16.79,
       "spark": [
+        1.85,
         0.3,
         1.67,
         -1.71,
-        -0.11,
-        0.8
+        -0.11
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -106,19 +106,19 @@
     },
     {
       "sym": "PL=F",
-      "price": 1833.5,
-      "d1": -0.64,
-      "w1": -2.85,
-      "hi52": -35.72,
-      "ytd": -13.75,
+      "price": 1845.3,
+      "d1": 0.52,
+      "w1": 0.78,
+      "hi52": -35.31,
+      "ytd": -13.19,
       "spark": [
+        3.07,
         -0.38,
         -1.46,
         -0.91,
-        0.52,
-        -0.64
+        0.52
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -126,19 +126,19 @@
     },
     {
       "sym": "PA=F",
-      "price": 1446.0,
-      "d1": 8.1,
-      "w1": 7.23,
-      "hi52": -33.36,
-      "ytd": -13.31,
+      "price": 1337.6,
+      "d1": 0.94,
+      "w1": 0.1,
+      "hi52": -38.36,
+      "ytd": -19.81,
       "spark": [
+        0.91,
         0.99,
         -2.2,
         -0.51,
-        0.94,
-        8.1
+        0.94
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -148,19 +148,19 @@
   "commod": [
     {
       "sym": "CL=F",
-      "price": 83.44,
-      "d1": -0.11,
-      "w1": -4.16,
-      "hi52": -30.16,
-      "ytd": 45.57,
+      "price": 83.53,
+      "d1": 1.58,
+      "w1": -4.9,
+      "hi52": -30.09,
+      "ytd": 45.73,
       "spark": [
+        -0.88,
         -2.35,
         -3.12,
         -0.16,
-        1.58,
-        -0.11
+        1.58
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -168,19 +168,19 @@
     },
     {
       "sym": "NG=F",
-      "price": 2.881,
-      "d1": -0.89,
-      "w1": 3.89,
-      "hi52": -63.19,
-      "ytd": -20.37,
+      "price": 2.907,
+      "d1": 2.29,
+      "w1": 6.37,
+      "hi52": -62.86,
+      "ytd": -19.65,
       "spark": [
+        1.46,
         0.32,
         -0.43,
         2.6,
-        2.29,
-        -0.89
+        2.29
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -188,19 +188,19 @@
     },
     {
       "sym": "USO",
-      "price": 129.7,
-      "d1": -0.24,
-      "w1": -3.67,
-      "hi52": -15.82,
-      "ytd": 88.08,
+      "price": 130.01,
+      "d1": 2.09,
+      "w1": -3.37,
+      "hi52": -15.62,
+      "ytd": 88.53,
       "spark": [
+        0.07,
         -1.8,
         -4.58,
         0.95,
-        2.09,
-        -0.24
+        2.09
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -210,38 +210,38 @@
   "yields": [
     {
       "sym": "^TNX",
-      "price": 4.72,
-      "d1": 4.8,
-      "w1": -1.8,
-      "hi52": -2.7,
-      "ytd": 53.3,
+      "price": 4.672,
+      "d1": 0.8,
+      "w1": -2.4,
+      "hi52": -7.5,
+      "ytd": 48.5,
       "spark": [
+        4.2,
         -3.4,
         -6.5,
         2.5,
-        0.8,
-        4.8
+        0.8
       ],
-      "updatedAt": 1787875200000,
-      "ema_5_10": true,
-      "ema_5_15": true,
+      "updatedAt": 1787788800000,
+      "ema_5_10": false,
+      "ema_5_15": false,
       "ema_uptrend": true
     },
     {
       "sym": "^TYX",
-      "price": 5.206,
-      "d1": 1.5,
-      "w1": -7.0,
-      "hi52": -12.0,
-      "ytd": 34.2,
+      "price": 5.191,
+      "d1": 0.5,
+      "w1": -4.6,
+      "hi52": -13.5,
+      "ytd": 32.7,
       "spark": [
+        3.9,
         -4.5,
         -5.7,
         1.2,
-        0.5,
-        1.5
+        0.5
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": true
@@ -411,20 +411,40 @@
   ],
   "portfolio_core": [
     {
-      "sym": "XMME.DE",
-      "price": 80.488,
-      "d1": 0.49,
-      "w1": 1.91,
-      "hi52": -7.51,
-      "ytd": 22.71,
+      "sym": "XAIX.DE",
+      "price": 205.4,
+      "d1": 1.96,
+      "w1": 2.32,
+      "hi52": -7.29,
+      "ytd": 32.88,
       "spark": [
-        0.36,
+        0.52,
+        -1.28,
+        0.69,
+        0.42,
+        1.96
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": false,
+      "ema_5_15": false,
+      "ema_uptrend": true,
+      "name": "Xtr.(IE)-Art.Int.+Big Data ETFR"
+    },
+    {
+      "sym": "XMME.DE",
+      "price": 80.712,
+      "d1": 0.28,
+      "w1": 1.82,
+      "hi52": -7.25,
+      "ytd": 23.05,
+      "spark": [
         1.22,
         -1.63,
         1.48,
-        0.49
+        0.49,
+        0.28
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -432,303 +452,263 @@
     },
     {
       "sym": "EXS1.DE",
-      "price": 216.7,
-      "d1": 0.02,
-      "w1": 0.74,
-      "hi52": -1.05,
-      "ytd": 6.64,
+      "price": 217.25,
+      "d1": 0.25,
+      "w1": 1.47,
+      "hi52": -0.8,
+      "ytd": 6.91,
       "spark": [
-        -0.46,
         0.65,
         -0.14,
         0.67,
-        0.02
+        0.02,
+        0.25
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
       "name": "iShares Core DAX UCITS ETF DE I"
     },
     {
-      "sym": "XESX.DE",
-      "price": 67.16,
-      "d1": 0.19,
-      "w1": 0.43,
-      "hi52": -1.87,
-      "ytd": 12.95,
+      "sym": "XNAS.DE",
+      "price": 58.78,
+      "d1": 1.15,
+      "w1": 1.27,
+      "hi52": -5.44,
+      "ytd": 18.25,
       "spark": [
-        -0.34,
-        0.68,
-        -0.28,
-        0.19,
-        0.19
+        0.4,
+        -0.82,
+        0.43,
+        0.12,
+        1.15
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
-      "ema_5_15": true,
-      "ema_uptrend": true,
-      "name": "Xtrackers Euro Stoxx 50       I"
+      "ema_5_15": false,
+      "ema_uptrend": false,
+      "name": "Xtr.IE)Xtr.NASDAQ 100 ETF     R"
     },
     {
       "sym": "XDWD.DE",
-      "price": 138.62,
-      "d1": 0.09,
-      "w1": -0.21,
-      "hi52": -2.4,
-      "ytd": 13.88,
+      "price": 139.12,
+      "d1": 0.36,
+      "w1": 0.77,
+      "hi52": -2.05,
+      "ytd": 14.29,
       "spark": [
-        -0.62,
         0.28,
         -0.21,
         0.25,
-        0.09
+        0.09,
+        0.36
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": true,
       "name": "Xtr.(IE) - MSCI World         R"
     },
     {
-      "sym": "XAIX.DE",
-      "price": 201.45,
-      "d1": 0.42,
-      "w1": -0.64,
-      "hi52": -9.07,
-      "ytd": 30.32,
+      "sym": "XESX.DE",
+      "price": 66.71,
+      "d1": -0.67,
+      "w1": 0.11,
+      "hi52": -2.53,
+      "ytd": 12.19,
       "spark": [
-        -0.99,
-        0.52,
-        -1.28,
-        0.69,
-        0.42
+        0.68,
+        -0.28,
+        0.19,
+        0.19,
+        -0.67
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
-      "ema_uptrend": false,
-      "name": "Xtr.(IE)-Art.Int.+Big Data ETFR"
-    },
-    {
-      "sym": "XNAS.DE",
-      "price": 58.11,
-      "d1": 0.12,
-      "w1": -0.97,
-      "hi52": -6.52,
-      "ytd": 16.9,
-      "spark": [
-        -1.09,
-        0.4,
-        -0.82,
-        0.43,
-        0.12
-      ],
-      "updatedAt": 1787702400000,
-      "ema_5_10": false,
-      "ema_5_15": false,
-      "ema_uptrend": false,
-      "name": "Xtr.IE)Xtr.NASDAQ 100 ETF     R"
+      "ema_uptrend": true,
+      "name": "Xtrackers Euro Stoxx 50       I"
     }
   ],
   "portfolio_us_tech": [
     {
-      "sym": "META",
-      "price": 578.02,
-      "d1": 1.21,
-      "w1": 5.11,
-      "hi52": -26.67,
-      "ytd": -10.97,
-      "spark": [
-        1.66,
-        1.97,
-        1.07,
-        -0.87,
-        1.21
-      ],
-      "updatedAt": 1787875200000,
-      "ema_5_10": true,
-      "ema_5_15": false,
-      "ema_uptrend": false,
-      "name": "Meta Platforms, Inc."
-    },
-    {
       "sym": "ANET",
-      "price": 195.38,
-      "d1": -2.84,
-      "w1": 3.57,
-      "hi52": -9.08,
-      "ytd": 46.24,
+      "price": 201.09,
+      "d1": -0.57,
+      "w1": 9.44,
+      "hi52": -6.42,
+      "ytd": 50.52,
       "spark": [
+        2.67,
         -0.27,
         1.48,
         5.92,
-        -0.57,
-        -2.84
+        -0.57
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
       "name": "Arista Networks, Inc."
     },
     {
-      "sym": "AAPL",
-      "price": 319.7,
-      "d1": 1.63,
-      "w1": 3.35,
-      "hi52": -7.14,
-      "ytd": 18.29,
+      "sym": "META",
+      "price": 571.1,
+      "d1": -0.87,
+      "w1": 4.63,
+      "hi52": -27.55,
+      "ytd": -12.04,
       "spark": [
-        0.32,
-        -0.14,
-        1.15,
-        0.36,
-        1.63
+        0.75,
+        1.66,
+        1.97,
+        1.07,
+        -0.87
       ],
-      "updatedAt": 1787875200000,
-      "ema_5_10": true,
-      "ema_5_15": true,
-      "ema_uptrend": true,
-      "name": "Apple Inc."
-    },
-    {
-      "sym": "AMZN",
-      "price": 266.43,
-      "d1": 3.97,
-      "w1": 3.02,
-      "hi52": -7.23,
-      "ytd": 17.63,
-      "spark": [
-        1.33,
-        -0.39,
-        -0.3,
-        -1.54,
-        3.97
-      ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
-      "ema_5_15": true,
-      "ema_uptrend": true,
-      "name": "Amazon.com, Inc."
+      "ema_5_15": false,
+      "ema_uptrend": false,
+      "name": "Meta Platforms, Inc."
     },
     {
       "sym": "IBM",
-      "price": 235.59,
-      "d1": -1.34,
-      "w1": -0.04,
-      "hi52": -28.63,
-      "ytd": -17.53,
+      "price": 238.79,
+      "d1": 3.88,
+      "w1": 2.18,
+      "hi52": -27.66,
+      "ytd": -16.41,
       "spark": [
+        0.85,
         -1.97,
         1.36,
         -1.84,
-        3.88,
-        -1.34
+        3.88
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
       "name": "International Business Machines"
     },
     {
-      "sym": "INTC",
-      "price": 89.47,
-      "d1": -2.85,
-      "w1": -0.67,
-      "hi52": -37.15,
-      "ytd": 127.2,
+      "sym": "AAPL",
+      "price": 314.58,
+      "d1": 0.36,
+      "w1": 1.05,
+      "hi52": -8.62,
+      "ytd": 16.39,
       "spark": [
+        -0.63,
+        0.32,
+        -0.14,
+        1.15,
+        0.36
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": true,
+      "ema_5_15": true,
+      "ema_uptrend": false,
+      "name": "Apple Inc."
+    },
+    {
+      "sym": "INTC",
+      "price": 92.09,
+      "d1": 4.36,
+      "w1": -0.04,
+      "hi52": -35.31,
+      "ytd": 133.85,
+      "spark": [
+        -2.24,
         -3.12,
         0.25,
         0.87,
-        4.36,
-        -2.85
+        4.36
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
       "name": "Intel Corporation"
     },
     {
-      "sym": "KO",
-      "price": 89.66,
-      "d1": 0.67,
-      "w1": -1.58,
-      "hi52": -3.06,
-      "ytd": 31.45,
+      "sym": "EQIX",
+      "price": 1076.45,
+      "d1": -0.29,
+      "w1": -0.57,
+      "hi52": -3.77,
+      "ytd": 43.02,
       "spark": [
+        -1.59,
+        -0.96,
+        1.73,
+        0.57,
+        -0.29
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": true,
+      "ema_5_15": true,
+      "ema_uptrend": true,
+      "name": "Equinix, Inc."
+    },
+    {
+      "sym": "AMZN",
+      "price": 256.26,
+      "d1": -1.54,
+      "w1": -1.48,
+      "hi52": -10.77,
+      "ytd": 13.14,
+      "spark": [
+        -0.57,
+        1.33,
+        -0.39,
+        -0.3,
+        -1.54
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": false,
+      "ema_5_15": false,
+      "ema_uptrend": true,
+      "name": "Amazon.com, Inc."
+    },
+    {
+      "sym": "KO",
+      "price": 89.06,
+      "d1": -1.13,
+      "w1": -1.59,
+      "hi52": -3.71,
+      "ytd": 30.57,
+      "spark": [
+        0.66,
         0.98,
         -0.38,
         -1.7,
-        -1.13,
-        0.67
+        -1.13
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
       "name": "Coca-Cola Company (The)"
-    },
-    {
-      "sym": "EQIX",
-      "price": 1044.41,
-      "d1": -2.98,
-      "w1": -1.97,
-      "hi52": -6.64,
-      "ytd": 38.77,
-      "spark": [
-        -0.96,
-        1.73,
-        0.57,
-        -0.29,
-        -2.98
-      ],
-      "updatedAt": 1787875200000,
-      "ema_5_10": false,
-      "ema_5_15": true,
-      "ema_uptrend": true,
-      "name": "Equinix, Inc."
     }
   ],
   "portfolio_software": [
     {
-      "sym": "ESTC",
-      "price": 99.91,
-      "d1": 19.31,
-      "w1": 16.26,
-      "hi52": -7.49,
-      "ytd": 37.69,
-      "spark": [
-        -3.14,
-        -3.41,
-        -1.43,
-        5.67,
-        19.31
-      ],
-      "updatedAt": 1787875200000,
-      "ema_5_10": true,
-      "ema_5_15": true,
-      "ema_uptrend": true,
-      "name": "Elastic N.V."
-    },
-    {
       "sym": "CRWD",
-      "price": 218.4,
-      "d1": -4.19,
-      "w1": 13.78,
-      "hi52": -4.66,
-      "ytd": 92.6,
+      "price": 227.96,
+      "d1": 20.5,
+      "w1": 19.76,
+      "hi52": -0.49,
+      "ytd": 101.03,
       "spark": [
+        0.85,
         -0.66,
         -2.78,
         2.05,
-        20.5,
-        -4.19
+        20.5
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -736,23 +716,43 @@
     },
     {
       "sym": "APPN",
-      "price": 42.51,
-      "d1": 2.68,
-      "w1": 10.99,
-      "hi52": -7.71,
-      "ytd": 24.81,
+      "price": 41.4,
+      "d1": 7.67,
+      "w1": 11.05,
+      "hi52": -10.12,
+      "ytd": 21.55,
       "spark": [
+        2.74,
         2.27,
         1.05,
         -2.85,
-        7.67,
-        2.68
+        7.67
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
       "name": "Appian Corporation"
+    },
+    {
+      "sym": "ESTC",
+      "price": 83.74,
+      "d1": 5.67,
+      "w1": -2.51,
+      "hi52": -12.83,
+      "ytd": 15.41,
+      "spark": [
+        0.05,
+        -3.14,
+        -3.41,
+        -1.43,
+        5.67
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": true,
+      "ema_5_15": true,
+      "ema_uptrend": true,
+      "name": "Elastic N.V."
     }
   ],
   "portfolio_europe": [
@@ -919,77 +919,20 @@
   ],
   "portfolio_energy": [
     {
-      "sym": "XAD6.DE",
-      "price": 544.8,
-      "d1": -0.74,
-      "w1": 3.72,
-      "hi52": -42.72,
-      "ytd": -4.84,
-      "spark": [
-        4.4,
-        1.36,
-        -0.55,
-        -0.71,
-        -0.74
-      ],
-      "updatedAt": 1787702400000,
-      "ema_5_10": true,
-      "ema_5_15": true,
-      "ema_uptrend": true,
-      "name": "DB ETC PLC                    E"
-    },
-    {
-      "sym": "URNU.DE",
-      "price": 25.165,
-      "d1": 0.52,
-      "w1": 0.0,
-      "hi52": -3.51,
-      "ytd": 5.51,
-      "spark": [
-        0.0,
-        0.0,
-        5.01,
-        -0.04,
-        0.52
-      ],
-      "updatedAt": 1787788800000,
-      "name": "Glbl X-Glbl X URANIUM ETF     R"
-    },
-    {
-      "sym": "DD",
-      "price": 136.98,
-      "d1": -1.31,
-      "w1": -0.98,
-      "hi52": -12.6,
-      "ytd": 12.61,
-      "spark": [
-        -1.2,
-        -0.46,
-        1.43,
-        0.59,
-        -1.31
-      ],
-      "updatedAt": 1787875200000,
-      "ema_5_10": false,
-      "ema_5_15": false,
-      "ema_uptrend": false,
-      "name": "DuPont de Nemours, Inc."
-    },
-    {
       "sym": "CCJ",
-      "price": 100.01,
-      "d1": -5.94,
-      "w1": -2.44,
-      "hi52": -26.05,
-      "ytd": 1.47,
+      "price": 106.33,
+      "d1": -0.96,
+      "w1": 11.24,
+      "hi52": -21.38,
+      "ytd": 7.88,
       "spark": [
+        7.24,
         -0.23,
         4.59,
         0.37,
-        -0.96,
-        -5.94
+        -0.96
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -997,39 +940,96 @@
     },
     {
       "sym": "ALB",
-      "price": 137.36,
-      "d1": 1.17,
-      "w1": -4.11,
-      "hi52": -37.69,
-      "ytd": -4.08,
+      "price": 135.77,
+      "d1": 0.94,
+      "w1": 1.18,
+      "hi52": -38.41,
+      "ytd": -5.19,
       "spark": [
+        6.75,
         -1.21,
         -5.89,
         1.0,
-        0.94,
-        1.17
+        0.94
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
       "name": "Albemarle Corporation"
     },
     {
-      "sym": "FSLR",
-      "price": 204.46,
-      "d1": -2.68,
-      "w1": -4.58,
-      "hi52": -36.3,
-      "ytd": -25.47,
+      "sym": "XAD6.DE",
+      "price": 550.95,
+      "d1": 1.13,
+      "w1": 0.47,
+      "hi52": -42.08,
+      "ytd": -3.76,
       "spark": [
+        1.36,
+        -0.55,
+        -0.71,
+        -0.74,
+        1.13
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": true,
+      "ema_5_15": true,
+      "ema_uptrend": true,
+      "name": "DB ETC PLC                    E"
+    },
+    {
+      "sym": "DD",
+      "price": 138.8,
+      "d1": 0.59,
+      "w1": 0.25,
+      "hi52": -11.44,
+      "ytd": 14.11,
+      "spark": [
+        -0.09,
+        -1.2,
+        -0.46,
+        1.43,
+        0.59
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": false,
+      "ema_5_15": false,
+      "ema_uptrend": false,
+      "name": "DuPont de Nemours, Inc."
+    },
+    {
+      "sym": "URNU.DE",
+      "price": 24.32,
+      "d1": -3.36,
+      "w1": 0.0,
+      "hi52": -6.75,
+      "ytd": 1.97,
+      "spark": [
+        0.0,
+        5.01,
+        -0.04,
+        0.52,
+        -3.36
+      ],
+      "updatedAt": 1787875200000,
+      "name": "Glbl X-Glbl X URANIUM ETF     R"
+    },
+    {
+      "sym": "FSLR",
+      "price": 210.1,
+      "d1": 2.02,
+      "w1": -1.85,
+      "hi52": -34.54,
+      "ytd": -23.42,
+      "spark": [
+        0.1,
         -2.79,
         -0.72,
         -0.43,
-        2.02,
-        -2.68
+        2.02
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1118,6 +1118,26 @@
       "name": "Friedrich Vorwerk Group SE    I"
     },
     {
+      "sym": "XDWT.DE",
+      "price": 124.8,
+      "d1": 2.65,
+      "w1": 2.26,
+      "hi52": -4.51,
+      "ytd": 24.58,
+      "spark": [
+        0.11,
+        -1.44,
+        0.55,
+        0.41,
+        2.65
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": false,
+      "ema_5_15": false,
+      "ema_uptrend": false,
+      "name": "Xtr.(IE)-MSCI Wo.Inform.Techn.R"
+    },
+    {
       "sym": "RR.L",
       "price": 1529.8,
       "d1": -0.86,
@@ -1136,26 +1156,6 @@
       "ema_5_15": true,
       "ema_uptrend": true,
       "name": "ROLLS-ROYCE HOLDINGS PLC ORD SH"
-    },
-    {
-      "sym": "BRK-B",
-      "price": 505.0,
-      "d1": 0.26,
-      "w1": 1.85,
-      "hi52": -6.09,
-      "ytd": 1.64,
-      "spark": [
-        1.71,
-        0.0,
-        0.12,
-        -0.24,
-        0.26
-      ],
-      "updatedAt": 1787875200000,
-      "ema_5_10": false,
-      "ema_5_15": false,
-      "ema_uptrend": false,
-      "name": "Berkshire Hathaway Inc. New"
     },
     {
       "sym": "ADYEN.AS",
@@ -1178,44 +1178,44 @@
       "name": "ADYEN"
     },
     {
-      "sym": "XDRE.DE",
-      "price": 30.12,
-      "d1": -0.17,
-      "w1": 1.19,
-      "hi52": -5.07,
-      "ytd": 14.2,
+      "sym": "IQQH.DE",
+      "price": 8.826,
+      "d1": 1.65,
+      "w1": 1.47,
+      "hi52": -24.64,
+      "ytd": 5.83,
       "spark": [
-        0.84,
-        -0.35,
-        0.28,
-        0.58,
-        -0.17
+        0.24,
+        -1.04,
+        0.79,
+        -0.15,
+        1.65
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
-      "name": "Xtr.(IE)-Xtr.MSCI Wld RE ETF  R"
+      "name": "iShsII-Gl.Clean Ener.Tra.U.ETFR"
     },
     {
-      "sym": "HXL",
-      "price": 94.87,
-      "d1": 0.17,
-      "w1": 1.08,
-      "hi52": -14.95,
-      "ytd": 24.12,
+      "sym": "BRK-B",
+      "price": 503.7,
+      "d1": -0.24,
+      "w1": 1.38,
+      "hi52": -6.33,
+      "ytd": 1.38,
       "spark": [
-        -1.37,
-        1.15,
-        1.07,
-        0.08,
-        0.17
+        -0.21,
+        1.71,
+        0.0,
+        0.12,
+        -0.24
       ],
-      "updatedAt": 1787875200000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
-      "name": "Hexcel Corporation"
+      "name": "Berkshire Hathaway Inc. New"
     },
     {
       "sym": "NCH2.DE",
@@ -1258,6 +1258,26 @@
       "name": "HAMBORNER REIT AG             N"
     },
     {
+      "sym": "LIN",
+      "price": 485.35,
+      "d1": -1.02,
+      "w1": 0.84,
+      "hi52": -11.46,
+      "ytd": 13.84,
+      "spark": [
+        1.3,
+        0.5,
+        -0.58,
+        0.64,
+        -1.02
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": true,
+      "ema_5_15": false,
+      "ema_uptrend": false,
+      "name": "Linde plc"
+    },
+    {
       "sym": "DOU.DE",
       "price": 7.98,
       "d1": 0.13,
@@ -1278,44 +1298,84 @@
       "name": "Douglas AG                    N"
     },
     {
-      "sym": "EXI5.DE",
-      "price": 14.144,
-      "d1": -0.53,
-      "w1": 0.6,
-      "hi52": -6.69,
-      "ytd": 5.33,
+      "sym": "QDVW.DE",
+      "price": 8.485,
+      "d1": 0.05,
+      "w1": 0.72,
+      "hi52": -1.21,
+      "ytd": 21.44,
       "spark": [
-        0.09,
-        0.77,
-        -0.13,
-        0.41,
-        -0.53
+        0.39,
+        -0.08,
+        0.37,
+        0.0,
+        0.05
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
+      "ema_5_10": true,
+      "ema_5_15": true,
+      "ema_uptrend": true,
+      "name": "iShsII-MSCI Wld Qua.Div.Adv.UER"
+    },
+    {
+      "sym": "HXL",
+      "price": 94.71,
+      "d1": 0.08,
+      "w1": 0.64,
+      "hi52": -15.09,
+      "ytd": 23.91,
+      "spark": [
+        -0.27,
+        -1.37,
+        1.15,
+        1.07,
+        0.08
+      ],
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
-      "name": "iSh.ST.Eu.600 Real Es.U.ETF DEI"
+      "name": "Hexcel Corporation"
     },
     {
-      "sym": "LIN",
-      "price": 489.51,
-      "d1": 0.86,
-      "w1": 0.4,
-      "hi52": -10.71,
-      "ytd": 14.82,
+      "sym": "ZPRV.DE",
+      "price": 81.74,
+      "d1": 0.01,
+      "w1": 0.53,
+      "hi52": -2.63,
+      "ytd": 22.27,
       "spark": [
-        0.5,
-        -0.58,
-        0.64,
-        -1.02,
-        0.86
+        0.49,
+        -0.12,
+        -0.42,
+        0.57,
+        0.01
       ],
-      "updatedAt": 1787875200000,
-      "ema_5_10": true,
-      "ema_5_15": true,
+      "updatedAt": 1787788800000,
+      "ema_5_10": false,
+      "ema_5_15": false,
       "ema_uptrend": false,
-      "name": "Linde plc"
+      "name": "SS SPDR MSCI USA SC.Val.W.UETFR"
+    },
+    {
+      "sym": "IUS3.DE",
+      "price": 101.76,
+      "d1": 0.28,
+      "w1": 0.32,
+      "hi52": -4.11,
+      "ytd": 21.86,
+      "spark": [
+        0.28,
+        -0.06,
+        -0.43,
+        0.26,
+        0.28
+      ],
+      "updatedAt": 1787788800000,
+      "ema_5_10": false,
+      "ema_5_15": false,
+      "ema_uptrend": false,
+      "name": "iShsIII -S&P Sm.Cap 600 U.ETF R"
     },
     {
       "sym": "IMB.L",
@@ -1338,26 +1398,6 @@
       "name": "IMPERIAL BRANDS PLC ORD 10P"
     },
     {
-      "sym": "QDVW.DE",
-      "price": 8.481,
-      "d1": 0.0,
-      "w1": 0.31,
-      "hi52": -1.25,
-      "ytd": 21.38,
-      "spark": [
-        -0.36,
-        0.39,
-        -0.08,
-        0.37,
-        0.0
-      ],
-      "updatedAt": 1787702400000,
-      "ema_5_10": true,
-      "ema_5_15": true,
-      "ema_uptrend": true,
-      "name": "iShsII-MSCI Wld Qua.Div.Adv.UER"
-    },
-    {
       "sym": "BRN.AX",
       "price": 0.135,
       "d1": -3.57,
@@ -1378,104 +1418,64 @@
       "name": "BRAINCHIP FPO [BRN]"
     },
     {
-      "sym": "IS3U.DE",
-      "price": 66.9,
-      "d1": 0.33,
-      "w1": -0.31,
-      "hi52": -3.07,
-      "ytd": 6.83,
+      "sym": "EXI5.DE",
+      "price": 14.064,
+      "d1": -0.57,
+      "w1": -0.06,
+      "hi52": -7.22,
+      "ytd": 4.74,
       "spark": [
-        -0.52,
-        0.3,
-        -0.31,
-        -0.1,
-        0.33
-      ],
-      "updatedAt": 1787702400000,
-      "ema_5_10": false,
-      "ema_5_15": false,
-      "ema_uptrend": false,
-      "name": "iShsIV-MSCI France UCITS ETF  R"
-    },
-    {
-      "sym": "IQQH.DE",
-      "price": 8.683,
-      "d1": -0.15,
-      "w1": -0.7,
-      "hi52": -25.86,
-      "ytd": 4.11,
-      "spark": [
+        0.77,
+        -0.13,
+        0.41,
         -0.53,
-        0.24,
-        -1.04,
-        0.79,
-        -0.15
+        -0.57
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
-      "name": "iShsII-Gl.Clean Ener.Tra.U.ETFR"
-    },
-    {
-      "sym": "ZPRV.DE",
-      "price": 81.73,
-      "d1": 0.57,
-      "w1": -0.81,
-      "hi52": -2.64,
-      "ytd": 22.26,
-      "spark": [
-        -1.32,
-        0.49,
-        -0.12,
-        -0.42,
-        0.57
-      ],
-      "updatedAt": 1787702400000,
-      "ema_5_10": false,
-      "ema_5_15": false,
-      "ema_uptrend": false,
-      "name": "SS SPDR MSCI USA SC.Val.W.UETFR"
+      "name": "iSh.ST.Eu.600 Real Es.U.ETF DEI"
     },
     {
       "sym": "QDVA.DE",
-      "price": 18.182,
-      "d1": 0.36,
-      "w1": -1.0,
-      "hi52": -13.91,
-      "ytd": 22.87,
+      "price": 18.166,
+      "d1": -0.09,
+      "w1": -0.27,
+      "hi52": -13.99,
+      "ytd": 22.76,
       "spark": [
-        -0.82,
         0.02,
         -1.8,
         1.25,
-        0.36
+        0.36,
+        -0.09
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
       "name": "iShsIV-Edge MSCI USA M.F.U.ETFR"
     },
     {
-      "sym": "XDWT.DE",
-      "price": 121.58,
-      "d1": 0.41,
-      "w1": -1.09,
-      "hi52": -6.98,
-      "ytd": 21.36,
+      "sym": "XDRE.DE",
+      "price": 29.84,
+      "d1": -0.93,
+      "w1": -0.58,
+      "hi52": -5.96,
+      "ytd": 13.14,
       "spark": [
-        -0.72,
-        0.11,
-        -1.44,
-        0.55,
-        0.41
+        -0.35,
+        0.28,
+        0.58,
+        -0.17,
+        -0.93
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
-      "name": "Xtr.(IE)-MSCI Wo.Inform.Techn.R"
+      "name": "Xtr.(IE)-Xtr.MSCI Wld RE ETF  R"
     },
     {
       "sym": "ASML.AS",
@@ -1498,24 +1498,24 @@
       "name": "ASML HOLDING"
     },
     {
-      "sym": "IUS3.DE",
-      "price": 101.48,
-      "d1": 0.26,
-      "w1": -1.55,
-      "hi52": -4.38,
-      "ytd": 21.53,
+      "sym": "IS3U.DE",
+      "price": 65.77,
+      "d1": -1.69,
+      "w1": -1.48,
+      "hi52": -4.71,
+      "ytd": 5.03,
       "spark": [
-        -1.59,
-        0.28,
-        -0.06,
-        -0.43,
-        0.26
+        0.3,
+        -0.31,
+        -0.1,
+        0.33,
+        -1.69
       ],
-      "updatedAt": 1787702400000,
+      "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
-      "name": "iShsIII -S&P Sm.Cap 600 U.ETF R"
+      "name": "iShsIV-MSCI France UCITS ETF  R"
     },
     {
       "sym": "EL.PA",
@@ -1578,24 +1578,24 @@
       "name": "Pentixapharm Holding AG       N"
     },
     {
-      "sym": "0291.HK",
-      "price": 19.77,
-      "d1": -3.18,
-      "w1": -3.75,
-      "hi52": -31.07,
-      "ytd": -23.82,
+      "sym": "QBTS",
+      "price": 17.9,
+      "d1": 2.23,
+      "w1": -4.79,
+      "hi52": -61.71,
+      "ytd": -36.37,
       "spark": [
-        2.82,
-        -0.47,
-        -0.67,
-        -2.2,
-        -3.18
+        8.46,
+        -8.39,
+        3.59,
+        -9.51,
+        2.23
       ],
       "updatedAt": 1787788800000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
-      "name": "CHINA RES BEER"
+      "name": "D-Wave Quantum Inc."
     },
     {
       "sym": "FIE.DE",
@@ -1618,42 +1618,42 @@
       "name": "Fielmann Group AG             I"
     },
     {
-      "sym": "QBTS",
-      "price": 16.99,
-      "d1": -5.08,
-      "w1": -16.67,
-      "hi52": -63.66,
-      "ytd": -39.6,
+      "sym": "0291.HK",
+      "price": 19.83,
+      "d1": 0.3,
+      "w1": -6.11,
+      "hi52": -30.86,
+      "ytd": -23.59,
       "spark": [
-        -8.39,
-        3.59,
-        -9.51,
-        2.23,
-        -5.08
+        -0.47,
+        -0.67,
+        -2.2,
+        -3.18,
+        0.3
       ],
       "updatedAt": 1787875200000,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
-      "name": "D-Wave Quantum Inc."
+      "name": "CHINA RES BEER"
     }
   ],
   "crypto": [
     {
       "sym": "BTC-EUR",
-      "price": 67032.7734,
-      "d1": -2.67,
-      "w1": 0.71,
-      "hi52": -37.79,
-      "ytd": -11.23,
+      "price": 67006.1172,
+      "d1": -2.71,
+      "w1": 0.67,
+      "hi52": -37.81,
+      "ytd": -11.26,
       "spark": [
         1.68,
         -0.56,
         0.75,
         1.57,
-        -2.67
+        -2.71
       ],
-      "updatedAt": 1787966344642,
+      "updatedAt": 1788004685518,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1661,19 +1661,19 @@
     },
     {
       "sym": "ETH-EUR",
-      "price": 2106.76,
-      "d1": -2.2,
-      "w1": -0.11,
-      "hi52": -48.31,
-      "ytd": -17.49,
+      "price": 2103.45,
+      "d1": -2.36,
+      "w1": -0.27,
+      "hi52": -48.39,
+      "ytd": -17.62,
       "spark": [
         0.85,
         -1.61,
         2.75,
         0.18,
-        -2.2
+        -2.36
       ],
-      "updatedAt": 1787966344643,
+      "updatedAt": 1788004685520,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1681,19 +1681,19 @@
     },
     {
       "sym": "SOL-EUR",
-      "price": 89.64,
-      "d1": -4.35,
-      "w1": 9.72,
-      "hi52": -58.27,
-      "ytd": -16.9,
+      "price": 89.46,
+      "d1": -4.54,
+      "w1": 9.5,
+      "hi52": -58.35,
+      "ytd": -17.07,
       "spark": [
         3.39,
         -2.04,
         5.93,
         6.91,
-        -4.35
+        -4.54
       ],
-      "updatedAt": 1787966344644,
+      "updatedAt": 1788004685522,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1701,19 +1701,19 @@
     },
     {
       "sym": "XRP-EUR",
-      "price": 1.1898,
-      "d1": -4.58,
-      "w1": -8.69,
-      "hi52": -56.14,
-      "ytd": -25.55,
+      "price": 1.1943,
+      "d1": -4.21,
+      "w1": -8.34,
+      "hi52": -55.98,
+      "ytd": -25.27,
       "spark": [
         -2.72,
         -3.15,
         -0.59,
         2.17,
-        -4.58
+        -4.21
       ],
-      "updatedAt": 1787966344645,
+      "updatedAt": 1788004685524,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -2093,16 +2093,16 @@
     },
     "naaim": null,
     "advance_decline": {
-      "advancers": 229,
-      "decliners": 273
+      "advancers": 152,
+      "decliners": 349
     },
     "new_high_low": {
-      "new_highs": 22,
-      "new_lows": 8
+      "new_highs": 27,
+      "new_lows": 12
     },
-    "pct_above_sma20": 43.1,
-    "pct_above_sma50": 53.5,
-    "pct_above_sma200": 71.5
+    "pct_above_sma20": 43.9,
+    "pct_above_sma50": 53.7,
+    "pct_above_sma200": 70.9
   },
   "etfmain": [
     {
