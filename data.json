@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-07T16:50:44Z",
+  "generated_at": "2026-09-07T20:54:49Z",
   "futures": [],
   "dxvix": [
     {
       "sym": "DX-Y.NYB",
-      "price": 98.873,
-      "d1": -0.29,
-      "w1": -0.56,
-      "hi52": -2.88,
-      "ytd": 0.46,
+      "price": 99.176,
+      "d1": 0.02,
+      "w1": -0.26,
+      "hi52": -2.58,
+      "ytd": 0.77,
       "spark": [
         0.24,
         -0.11,
         -0.56,
         0.16,
-        -0.29
+        0.02
       ],
-      "updatedAt": 1788799884488,
+      "updatedAt": 1788814529827,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -36,7 +36,7 @@
         1.47,
         5.3
       ],
-      "updatedAt": 1788799884489,
+      "updatedAt": 1788814529828,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -58,7 +58,7 @@
         -1.38,
         1.06
       ],
-      "updatedAt": 1788799889624,
+      "updatedAt": 1788814534798,
       "ema_5_10": false,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -78,7 +78,7 @@
         -1.38,
         1.06
       ],
-      "updatedAt": 1788799889625,
+      "updatedAt": 1788814534800,
       "ema_5_10": false,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -98,7 +98,7 @@
         0.3,
         1.3
       ],
-      "updatedAt": 1788799889627,
+      "updatedAt": 1788814534801,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -118,7 +118,7 @@
         -0.4,
         0.27
       ],
-      "updatedAt": 1788799889628,
+      "updatedAt": 1788814534803,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -138,7 +138,7 @@
         -2.51,
         0.99
       ],
-      "updatedAt": 1788799889630,
+      "updatedAt": 1788814534805,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -160,7 +160,7 @@
         0.2,
         0.0
       ],
-      "updatedAt": 1788799891542,
+      "updatedAt": 1788814536568,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -180,7 +180,7 @@
         2.13,
         0.0
       ],
-      "updatedAt": 1788799891544,
+      "updatedAt": 1788814536570,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -290,17 +290,17 @@
     },
     {
       "sym": "^NSEI",
-      "price": 23779.1504,
-      "d1": -0.5,
-      "w1": -1.25,
-      "hi52": -9.84,
-      "ytd": -9.05,
+      "price": 23897.6992,
+      "d1": 0.1,
+      "w1": -1.15,
+      "hi52": -9.39,
+      "ytd": -8.6,
       "spark": [
+        -0.39,
         -0.1,
         -0.59,
         -0.17,
-        0.1,
-        -0.5
+        0.1
       ],
       "updatedAt": 1788775272000,
       "ema_5_10": false,
@@ -444,7 +444,7 @@
         1.6,
         0.46
       ],
-      "updatedAt": 1788799852459,
+      "updatedAt": 1788814497707,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -464,7 +464,7 @@
         0.17,
         0.34
       ],
-      "updatedAt": 1788799852463,
+      "updatedAt": 1788814497713,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -484,7 +484,7 @@
         -0.05,
         0.2
       ],
-      "updatedAt": 1788799852457,
+      "updatedAt": 1788814497706,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": false,
@@ -504,7 +504,7 @@
         -0.29,
         -0.1
       ],
-      "updatedAt": 1788799852456,
+      "updatedAt": 1788814497704,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -524,7 +524,7 @@
         0.23,
         0.15
       ],
-      "updatedAt": 1788799852460,
+      "updatedAt": 1788814497709,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -544,7 +544,7 @@
         0.14,
         -0.16
       ],
-      "updatedAt": 1788799852462,
+      "updatedAt": 1788814497711,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": true,
@@ -790,7 +790,7 @@
         2.4,
         6.91
       ],
-      "updatedAt": 1788799862278,
+      "updatedAt": 1788814507306,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": false,
@@ -810,7 +810,7 @@
         3.11,
         2.25
       ],
-      "updatedAt": 1788799862280,
+      "updatedAt": 1788814507308,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -830,7 +830,7 @@
         1.17,
         0.87
       ],
-      "updatedAt": 1788799862275,
+      "updatedAt": 1788814507303,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -850,7 +850,7 @@
         -1.22,
         -0.56
       ],
-      "updatedAt": 1788799862277,
+      "updatedAt": 1788814507305,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": true,
@@ -870,7 +870,7 @@
         0.3,
         -1.04
       ],
-      "updatedAt": 1788799862282,
+      "updatedAt": 1788814507311,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -890,7 +890,7 @@
         0.88,
         -0.49
       ],
-      "updatedAt": 1788799862285,
+      "updatedAt": 1788814507314,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -910,7 +910,7 @@
         0.05,
         -1.55
       ],
-      "updatedAt": 1788799862274,
+      "updatedAt": 1788814507301,
       "ema_5_10": false,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -930,7 +930,7 @@
         3.02,
         0.3
       ],
-      "updatedAt": 1788799862284,
+      "updatedAt": 1788814507312,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -952,7 +952,7 @@
         -0.25,
         0.9
       ],
-      "updatedAt": 1788799865941,
+      "updatedAt": 1788814510872,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1012,7 +1012,7 @@
         -1.64,
         0.11
       ],
-      "updatedAt": 1788799865943,
+      "updatedAt": 1788814510874,
       "ema_5_10": false,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1074,7 +1074,7 @@
         1.51,
         5.52
       ],
-      "updatedAt": 1788799880729,
+      "updatedAt": 1788814526217,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1094,7 +1094,7 @@
         0.56,
         1.76
       ],
-      "updatedAt": 1788799874833,
+      "updatedAt": 1788814519905,
       "ema_5_10": true,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1114,7 +1114,7 @@
         3.09,
         2.25
       ],
-      "updatedAt": 1788799874849,
+      "updatedAt": 1788814519924,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1134,7 +1134,7 @@
         -1.6,
         2.97
       ],
-      "updatedAt": 1788799880742,
+      "updatedAt": 1788814526232,
       "ema_5_10": true,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1154,7 +1154,7 @@
         1.45,
         0.78
       ],
-      "updatedAt": 1788799874839,
+      "updatedAt": 1788814519912,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1174,7 +1174,7 @@
         3.97,
         -0.02
       ],
-      "updatedAt": 1788799880737,
+      "updatedAt": 1788814526226,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1194,7 +1194,7 @@
         0.37,
         0.41
       ],
-      "updatedAt": 1788799874837,
+      "updatedAt": 1788814519910,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1214,7 +1214,7 @@
         0.75,
         0.0
       ],
-      "updatedAt": 1788799874859,
+      "updatedAt": 1788814519935,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": false,
@@ -1234,11 +1234,31 @@
         0.34,
         -0.4
       ],
-      "updatedAt": 1788799874845,
+      "updatedAt": 1788814519919,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
       "name": "SS SPDR MSCI USA SC.Val.W.UETFR"
+    },
+    {
+      "sym": "0291.HK",
+      "price": 18.9,
+      "d1": 0.11,
+      "w1": 0.51,
+      "hi52": -32.3,
+      "ytd": -25.17,
+      "spark": [
+        -0.61,
+        -0.43,
+        0.38,
+        1.07,
+        0.11
+      ],
+      "updatedAt": 1788814519931,
+      "ema_5_10": false,
+      "ema_5_15": false,
+      "ema_uptrend": false,
+      "name": "CHINA RES BEER"
     },
     {
       "sym": "FIE.DE",
@@ -1254,7 +1274,7 @@
         -0.89,
         1.03
       ],
-      "updatedAt": 1788799874863,
+      "updatedAt": 1788814519940,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1274,7 +1294,7 @@
         0.34,
         -0.42
       ],
-      "updatedAt": 1788799874840,
+      "updatedAt": 1788814519914,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1314,7 +1334,7 @@
         -0.12,
         -0.4
       ],
-      "updatedAt": 1788799874836,
+      "updatedAt": 1788814519909,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1334,7 +1354,7 @@
         -0.12,
         -0.59
       ],
-      "updatedAt": 1788799880731,
+      "updatedAt": 1788814526219,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1354,7 +1374,7 @@
         -0.38,
         0.0
       ],
-      "updatedAt": 1788799880744,
+      "updatedAt": 1788814526234,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1374,7 +1394,7 @@
         0.26,
         -1.15
       ],
-      "updatedAt": 1788799874846,
+      "updatedAt": 1788814519920,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1394,7 +1414,7 @@
         -0.06,
         0.28
       ],
-      "updatedAt": 1788799874834,
+      "updatedAt": 1788814519907,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1414,7 +1434,7 @@
         -0.35,
         1.73
       ],
-      "updatedAt": 1788799880733,
+      "updatedAt": 1788814526221,
       "ema_5_10": false,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1434,7 +1454,7 @@
         -0.01,
         -0.9
       ],
-      "updatedAt": 1788799874842,
+      "updatedAt": 1788814519916,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1454,7 +1474,7 @@
         0.51,
         0.19
       ],
-      "updatedAt": 1788799880749,
+      "updatedAt": 1788814526240,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1481,26 +1501,6 @@
       "name": "Linde plc"
     },
     {
-      "sym": "0291.HK",
-      "price": 18.88,
-      "d1": 1.07,
-      "w1": -2.18,
-      "hi52": -32.37,
-      "ytd": -25.25,
-      "spark": [
-        -2.57,
-        -0.61,
-        -0.43,
-        0.38,
-        1.07
-      ],
-      "updatedAt": 1788480000000,
-      "ema_5_10": false,
-      "ema_5_15": false,
-      "ema_uptrend": false,
-      "name": "CHINA RES BEER"
-    },
-    {
       "sym": "IMB.L",
       "price": 2472.0,
       "d1": -0.68,
@@ -1514,7 +1514,7 @@
         -1.15,
         -0.68
       ],
-      "updatedAt": 1788799880736,
+      "updatedAt": 1788814526224,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1554,7 +1554,7 @@
         0.62,
         0.09
       ],
-      "updatedAt": 1788799880747,
+      "updatedAt": 1788814526237,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1594,7 +1594,7 @@
         4.0,
         -3.85
       ],
-      "updatedAt": 1788799874855,
+      "updatedAt": 1788814519930,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1614,7 +1614,7 @@
         -1.57,
         -2.55
       ],
-      "updatedAt": 1788799874848,
+      "updatedAt": 1788814519922,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": true,
@@ -1634,7 +1634,7 @@
         1.28,
         1.19
       ],
-      "updatedAt": 1788799874866,
+      "updatedAt": 1788814519943,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1654,7 +1654,7 @@
         -2.06,
         -0.83
       ],
-      "updatedAt": 1788799874862,
+      "updatedAt": 1788814519938,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1664,19 +1664,19 @@
   "crypto": [
     {
       "sym": "BTC-EUR",
-      "price": 67930.5625,
-      "d1": -1.82,
-      "w1": 1.81,
-      "hi52": -36.95,
-      "ytd": -10.04,
+      "price": 68187.5781,
+      "d1": -1.45,
+      "w1": 2.19,
+      "hi52": -36.71,
+      "ytd": -9.7,
       "spark": [
         4.75,
         -1.88,
         0.23,
         0.66,
-        -1.82
+        -1.45
       ],
-      "updatedAt": 1788799882891,
+      "updatedAt": 1788814528316,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1684,19 +1684,19 @@
     },
     {
       "sym": "ETH-EUR",
-      "price": 2133.1001,
-      "d1": -1.48,
-      "w1": 3.33,
-      "hi52": -47.66,
-      "ytd": -16.46,
+      "price": 2146.47,
+      "d1": -0.87,
+      "w1": 3.98,
+      "hi52": -47.33,
+      "ytd": -15.93,
       "spark": [
         4.48,
         -1.99,
         1.04,
         1.37,
-        -1.48
+        -0.87
       ],
-      "updatedAt": 1788799882892,
+      "updatedAt": 1788814528317,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1704,19 +1704,19 @@
     },
     {
       "sym": "SOL-EUR",
-      "price": 89.26,
-      "d1": -2.62,
-      "w1": 3.01,
-      "hi52": -58.45,
-      "ytd": -17.25,
+      "price": 89.65,
+      "d1": -2.19,
+      "w1": 3.46,
+      "hi52": -58.27,
+      "ytd": -16.89,
       "spark": [
         3.2,
         -1.87,
         1.25,
         3.17,
-        -2.62
+        -2.19
       ],
-      "updatedAt": 1788799882894,
+      "updatedAt": 1788814528319,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1724,19 +1724,19 @@
     },
     {
       "sym": "XRP-EUR",
-      "price": 1.1995,
-      "d1": -2.09,
-      "w1": 2.95,
-      "hi52": -55.79,
-      "ytd": -24.94,
+      "price": 1.2037,
+      "d1": -1.75,
+      "w1": 3.31,
+      "hi52": -55.63,
+      "ytd": -24.68,
       "spark": [
         7.12,
         -3.52,
         1.0,
         0.74,
-        -2.09
+        -1.75
       ],
-      "updatedAt": 1788799882895,
+      "updatedAt": 1788814528321,
       "ema_5_10": true,
       "ema_5_15": true,
       "ema_uptrend": true,
