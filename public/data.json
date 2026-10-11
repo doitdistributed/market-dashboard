@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:05:33Z",
+  "generated_at": "2026-10-11T18:04:49Z",
   "futures": [],
   "dxvix": [
     {
@@ -108,14 +108,14 @@
       "sym": "PL=F",
       "price": 1693.3,
       "d1": 4.16,
-      "w1": 0.6,
+      "w1": -0.72,
       "hi52": -40.64,
       "ytd": -20.34,
       "spark": [
+        -1.31,
         1.41,
         -0.83,
-        -3.52,
-        -0.46,
+        -3.96,
         4.16
       ],
       "updatedAt": 1791504000000,
@@ -1644,19 +1644,19 @@
   "crypto": [
     {
       "sym": "BTC-EUR",
-      "price": 74248.25,
-      "d1": 0.32,
-      "w1": -2.35,
-      "hi52": -25.96,
-      "ytd": -1.67,
+      "price": 74804.1016,
+      "d1": 1.07,
+      "w1": -1.61,
+      "hi52": -25.41,
+      "ytd": -0.93,
       "spark": [
         -2.21,
         -2.03,
         1.14,
         0.46,
-        0.32
+        1.07
       ],
-      "updatedAt": 1791720366724,
+      "updatedAt": 1791741919239,
       "ema_5_10": false,
       "ema_5_15": true,
       "ema_uptrend": true,
@@ -1664,19 +1664,19 @@
     },
     {
       "sym": "ETH-EUR",
-      "price": 2238.0601,
-      "d1": 0.13,
-      "w1": -6.64,
-      "hi52": -39.68,
-      "ytd": -12.35,
+      "price": 2264.2,
+      "d1": 1.3,
+      "w1": -5.55,
+      "hi52": -38.97,
+      "ytd": -11.32,
       "spark": [
         -4.15,
         -4.06,
         0.63,
         0.76,
-        0.13
+        1.3
       ],
-      "updatedAt": 1791720366725,
+      "updatedAt": 1791741919241,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1684,19 +1684,19 @@
     },
     {
       "sym": "SOL-EUR",
-      "price": 98.0,
-      "d1": -0.22,
-      "w1": -8.7,
-      "hi52": -46.35,
-      "ytd": -9.15,
+      "price": 100.01,
+      "d1": 1.82,
+      "w1": -6.83,
+      "hi52": -45.25,
+      "ytd": -7.29,
       "spark": [
         -3.33,
         -5.94,
         -0.2,
         0.83,
-        -0.22
+        1.82
       ],
-      "updatedAt": 1791720366726,
+      "updatedAt": 1791741919242,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": true,
@@ -1704,19 +1704,19 @@
     },
     {
       "sym": "XRP-EUR",
-      "price": 1.2459,
-      "d1": -0.42,
-      "w1": -6.37,
-      "hi52": -46.14,
-      "ytd": -22.04,
+      "price": 1.264,
+      "d1": 1.02,
+      "w1": -5.01,
+      "hi52": -45.36,
+      "ytd": -20.91,
       "spark": [
         -4.63,
         -3.08,
         1.26,
         0.47,
-        -0.42
+        1.02
       ],
-      "updatedAt": 1791720366727,
+      "updatedAt": 1791741919244,
       "ema_5_10": false,
       "ema_5_15": false,
       "ema_uptrend": false,
@@ -1936,104 +1936,104 @@
       {
         "s": "SIE.DE",
         "n": "Siemens AG",
-        "w": 11.69
+        "w": 11.7
       },
       {
         "s": "SAP.DE",
         "n": "SAP SE",
-        "w": 10.77
+        "w": 10.8
       },
       {
         "s": "ALV.DE",
         "n": "Allianz SE",
-        "w": 9.57
-      },
-      {
-        "s": "AIR.PA",
-        "n": "Airbus SE",
-        "w": 6.47
+        "w": 9.16
       },
       {
         "s": "ENR.DE",
         "n": "Siemens Energy AG Ordinary Shares",
-        "w": 6.45
+        "w": 7.1
+      },
+      {
+        "s": "AIR.PA",
+        "n": "Airbus SE",
+        "w": 6.49
       },
       {
         "s": "DTE.DE",
         "n": "Deutsche Telekom AG",
-        "w": 5.48
+        "w": 5.23
       },
       {
         "s": "IFX.DE",
         "n": "Infineon Technologies AG",
-        "w": 4.1
-      },
-      {
-        "s": "DBK.DE",
-        "n": "Deutsche Bank AG",
-        "w": 3.69
+        "w": 4.5
       },
       {
         "s": "MUV2.DE",
         "n": "Munchener Ruckversicherungs-Gesellschaft AG",
-        "w": 3.67
+        "w": 3.69
       },
       {
-        "s": "DB1.DE",
-        "n": "Deutsche Boerse AG",
-        "w": 2.99
+        "s": "DBK.DE",
+        "n": "Deutsche Bank AG",
+        "w": 3.52
+      },
+      {
+        "s": "DHL.DE",
+        "n": "DHL AG",
+        "w": 3.12
       }
     ],
     "XAIX.DE": [
       {
         "s": "MSFT",
         "n": "Microsoft Corp",
-        "w": 5.89
-      },
-      {
-        "s": "NVDA",
-        "n": "NVIDIA Corp",
-        "w": 4.78
-      },
-      {
-        "s": "AAPL",
-        "n": "Apple Inc",
-        "w": 4.74
-      },
-      {
-        "s": "AMZN",
-        "n": "Amazon.com Inc",
-        "w": 4.72
+        "w": 5.77
       },
       {
         "s": "META",
         "n": "Meta Platforms Inc Class A",
-        "w": 4.4
+        "w": 5.4
+      },
+      {
+        "s": "AAPL",
+        "n": "Apple Inc",
+        "w": 4.83
+      },
+      {
+        "s": "NVDA",
+        "n": "NVIDIA Corp",
+        "w": 4.79
+      },
+      {
+        "s": "AMD",
+        "n": "Advanced Micro Devices Inc",
+        "w": 4.42
+      },
+      {
+        "s": "AMZN",
+        "n": "Amazon.com Inc",
+        "w": 4.38
       },
       {
         "s": "GOOGL",
         "n": "Alphabet Inc Class A",
-        "w": 4.11
+        "w": 4.04
       },
       {
-        "s": "WMT",
-        "n": "Walmart Inc",
-        "w": 4.01
+        "s": "MU",
+        "n": "Micron Technology Inc",
+        "w": 3.87
       },
       {
         "s": "005930.KQ",
         "n": "Samsung Electronics Co Ltd",
-        "w": 3.82
+        "w": 3.86
       },
       {
-        "s": "PLTR",
-        "n": "Palantir Technologies Inc Ordinary Shares - Class A",
-        "w": 3.75
-      },
-      {
-        "s": "CSCO",
-        "n": "Cisco Systems Inc",
-        "w": 3.65
+        "s": "WMT",
+        "n": "Walmart Inc",
+        "w": 3.85
       }
     ],
     "URNU.DE": [
